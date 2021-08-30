@@ -1,7 +1,7 @@
 package Chapter2.Pivass;
 
 public class Vector {
-    private double[] vector;
+    private final double[] vector;
 
     public Vector(double[] vector){
         this.vector = vector;
@@ -64,8 +64,7 @@ public class Vector {
     public double getVectorLength(){
         double sum = 0;
 
-        for (int i = 0; i < vector.length; i++)
-            sum += Math.pow(vector[i], 2);
+        for (double v : vector) sum += Math.pow(v, 2);
 
         return sum;
     }
@@ -73,8 +72,7 @@ public class Vector {
     private double getVectorLength(double[] vector){
         double sum = 0;
 
-        for (int i = 0; i < vector.length; i++)
-            sum += Math.pow(vector[i], 2);
+        for (double v : vector) sum += Math.pow(v, 2);
 
         return sum;
     }

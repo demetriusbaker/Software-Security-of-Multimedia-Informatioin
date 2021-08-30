@@ -10,12 +10,12 @@ public class Cargoship implements IShip{
     }
 
     @Override
-    public String GetInfo() {
+    public String getInfo() {
         return "It's cargo ship. It can to transport cargo";
     }
 
     @Override
-    public String GetCharacteristics() {
+    public String getCharacteristics() {
         return "Next characteristics\n" +
                 "Cargo weight: " + cargoWeight + "\n" +
                 "Price: " + price + "\n" +

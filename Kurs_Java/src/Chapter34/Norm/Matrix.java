@@ -1,7 +1,7 @@
 package Chapter34.Norm;
 
 public class Matrix implements INorm{
-    private double[][] matrix;
+    private final double[][] matrix;
 
     public Matrix(double[][] matrix){
         final int w = matrix.length;
@@ -9,18 +9,17 @@ public class Matrix implements INorm{
         this.matrix = new double[w][l];
 
         for (int i = 0; i < w; i++)
-            for (int j = 0; j < l; j++)
-                this.matrix[i][j] = matrix[i][j];
+            System.arraycopy(matrix[i], 0, this.matrix[i], 0, l);
     }
 
     @Override
-    public void GetNorm() {
+    public void getNorm() {
         double max = matrix[0][0];
 
-        for (int i = 0; i < matrix.length; i++)
-            for (int j = 0; j < matrix[i].length; j++)
-                if (Math.abs(max) < Math.abs(matrix[i][j]))
-                    max = matrix[i][j];
+        for (double[] doubles : matrix)
+            for (double aDouble : doubles)
+                if (Math.abs(max) < Math.abs(aDouble))
+                    max = aDouble;
 
         System.out.println("The norm of matrix: " + max);
     }

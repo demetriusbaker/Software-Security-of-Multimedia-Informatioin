@@ -23,25 +23,25 @@ public class Circle {
         this.y = y;
     }
 
-    public String GetCharacteristics(){
+    public String getCharacteristics(){
         return "Radius: " + radius + "; \n" +
         "X: " + x + "; \n" + "Y: " + y + ";" + "\n";
     }
 
-    public void ChangeXAndY(double x, double y){
+    public void changeXAndY(double x, double y){
         this.x += x;
         this.y += y;
     }
 
-    public void ChangeRadius(double radius){
+    public void changeRadius(double radius){
         this.radius = radius;
     }
 
-    public double GetSquare(){
+    public double getSquare(){
         return Math.PI * Math.pow(radius, 2);
     }
 
-    public double GetLengthCircle(){
+    public double getLengthCircle(){
         return 2 * Math.PI * radius;
     }
 }

@@ -1,7 +1,7 @@
 package Chapter34.Task41;
 
 public class PartTimeStudent extends Student{
-    private boolean isPartTime;
+    private final boolean isPartTime;
 
     public PartTimeStudent(String name, boolean isPartTime){
         this.name = name;
@@ -9,12 +9,12 @@ public class PartTimeStudent extends Student{
     }
 
     @Override
-    public String GetInfo() {
+    public String getInfo() {
         return "I am a part-time student!";
     }
 
     @Override
-    public String GetPerson() {
+    public String getPerson() {
         return "Name: " + name + "\n" +
                 "Is part-time student? - " + isPartTime;
     }

@@ -1,7 +1,7 @@
 package Chapter34.Square;
 
 public class Rectangle implements ISquare {
-    private double length, width;
+    private final double length, width;
 
     public Rectangle(double length, double width){
         this.length = length;
@@ -9,7 +9,7 @@ public class Rectangle implements ISquare {
     }
 
     @Override
-    public void GetSquareInfo() {
+    public void getSquareInfo() {
         System.out.println("Square of rectangle is " +
                 length * width);
     }

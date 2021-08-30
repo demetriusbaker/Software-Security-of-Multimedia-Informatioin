@@ -5,16 +5,16 @@ import java.util.GregorianCalendar;
 
 public class Student {
     // id, SNP, date of birth, address, telephone, faculty, course, group
-    private int id;
-    private int course;
-    private String surname;
-    private String name;
-    private String patronymic;
-    private String address;
-    private String phone;
-    private String faculty;
-    private String group;
-    private GregorianCalendar date_Birth;
+    private final int id;
+    private final int course;
+    private final String surname;
+    private final String name;
+    private final String patronymic;
+    private final String address;
+    private final String phone;
+    private final String faculty;
+    private final String group;
+    private final GregorianCalendar date_Birth;
 
     public Student(int id, String surname, String name, String patronymic,
                    GregorianCalendar date_Birth, String address, String phone,
@@ -31,59 +31,59 @@ public class Student {
         this.group = group;
     }
 
-    public int Get_Id(){
+    public int getId(){
         return id;
     }
 
-    public String Get_Surname(){
+    public String getSurname(){
         return surname;
     }
 
-    public String Get_Name(){
+    public String getName(){
         return name;
     }
 
-    public String Get_Patronymic(){
+    public String getPatronymic(){
         return patronymic;
     }
 
-    public GregorianCalendar Get_Date_Birth(){
+    public GregorianCalendar getDateBirth(){
         return date_Birth;
     }
 
-    public String Get_Address(){
+    public String getAddress(){
         return address;
     }
 
-    public String Get_Phone(){
+    public String getPhone(){
         return phone;
     }
 
-    public String Get_Faculty(){
+    public String getFaculty(){
         return faculty;
     }
 
-    public int Get_Course(){
+    public int getCourse(){
         return course;
     }
 
-    public String Get_Group(){
+    public String getGroup(){
         return group;
     }
 
     @Override
     public String toString(){
-        return "ID: " + Get_Id() + ";" + "\n" +
-                "Фамилия: " + Get_Surname() + ";" + "\n" +
-                "Имя: " + Get_Name() + ";" + "\n" +
-                "Отчество: " + Get_Patronymic() + ";" + "\n" +
-                "Дата рождения: " + Get_Date_Birth().get(Calendar.DAY_OF_MONTH) +
-                "." + Get_Date_Birth().get(Calendar.MONTH) +
-                "." + Get_Date_Birth().get(Calendar.YEAR) + ";" + "\n" +
-                "Адрес: " + Get_Address() + ";" + "\n" +
-                "Телефон: " + Get_Phone() + ";" + "\n" +
-                "Факультет: " + Get_Faculty() + ";" + "\n" +
-                "Курс: " + Get_Course() + ";" + "\n" +
-                "Группа: " + Get_Group() + ";" + "\n";
+        return "ID: " + getId() + ";" + "\n" +
+                "Фамилия: " + getSurname() + ";" + "\n" +
+                "Имя: " + getName() + ";" + "\n" +
+                "Отчество: " + getPatronymic() + ";" + "\n" +
+                "Дата рождения: " + getDateBirth().get(Calendar.DAY_OF_MONTH) +
+                "." + getDateBirth().get(Calendar.MONTH) +
+                "." + getDateBirth().get(Calendar.YEAR) + ";" + "\n" +
+                "Адрес: " + getAddress() + ";" + "\n" +
+                "Телефон: " + getPhone() + ";" + "\n" +
+                "Факультет: " + getFaculty() + ";" + "\n" +
+                "Курс: " + getCourse() + ";" + "\n" +
+                "Группа: " + getGroup() + ";" + "\n";
     }
 }

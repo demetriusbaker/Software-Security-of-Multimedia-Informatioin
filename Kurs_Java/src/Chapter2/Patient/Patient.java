@@ -1,14 +1,14 @@
 package Chapter2.Patient;
 
 public class Patient {
-    private int id;
-    private String surname;
-    private String name;
-    private String patronymic;
-    private String address;
-    private String phone;
-    private int cardNumber;
-    private String diagnosis;
+    private final int id;
+    private final String surname;
+    private final String name;
+    private final String patronymic;
+    private final String address;
+    private final String phone;
+    private final int cardNumber;
+    private final String diagnosis;
 
     public Patient(int id, String surname, String name,
                    String patronymic, String address, String phone,
@@ -23,47 +23,47 @@ public class Patient {
         this.diagnosis = diagnosis;
     }
 
-    public int Get_Id(){
+    public int getId(){
         return id;
     }
 
-    public String Get_Surname(){
+    public String getSurname(){
         return surname;
     }
 
-    public String Get_Name(){
+    public String getName(){
         return name;
     }
 
-    public String Get_Patronymic(){
+    public String getPatronymic(){
         return patronymic;
     }
 
-    public String Get_Address(){
+    public String getAddress(){
         return address;
     }
 
-    public String Get_Phone(){
+    public String getPhone(){
         return phone;
     }
 
-    public int Get_CardNumber(){
+    public int getCardNumber(){
         return cardNumber;
     }
 
-    public String Get_Diagnosis(){
+    public String getDiagnosis(){
         return diagnosis;
     }
 
     @Override
     public String toString(){
-        return "ID: " + Get_Id() + ";" + "\n" +
-                "Фамилия: " + Get_Surname() + ";" + "\n" +
-                "Имя: " + Get_Name() + ";" + "\n" +
-                "Отчество: " + Get_Patronymic() + ";" + "\n" +
-                "Адрес: " + Get_Address() + ";" + "\n" +
-                "Телефон: " + Get_Phone() + ";" + "\n" +
-                "Номер медкарты: " + Get_CardNumber() + ";" + "\n" +
-                "Диагноз: " + Get_Diagnosis() + ";" + "\n";
+        return "ID: " + getId() + ";" + "\n" +
+                "Фамилия: " + getSurname() + ";" + "\n" +
+                "Имя: " + getName() + ";" + "\n" +
+                "Отчество: " + getPatronymic() + ";" + "\n" +
+                "Адрес: " + getAddress() + ";" + "\n" +
+                "Телефон: " + getPhone() + ";" + "\n" +
+                "Номер медкарты: " + getCardNumber() + ";" + "\n" +
+                "Диагноз: " + getDiagnosis() + ";" + "\n";
     }
 }

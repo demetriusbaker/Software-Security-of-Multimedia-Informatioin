@@ -1,14 +1,14 @@
 package Chapter2.House;
 
 public class House {
-    private int id;
-    private int numHouse;
-    private float square;
-    private int floor;
-    private int countRoom;
-    private String nameStreet;
-    private String typeBuilding;
-    private int lifetime;
+    private final int id;
+    private final int numHouse;
+    private final float square;
+    private final int floor;
+    private final int countRoom;
+    private final String nameStreet;
+    private final String typeBuilding;
+    private final int lifetime;
 
     public House(int id, int numHouse, float square, int floor, int countRoom,
                  String nameStreet, String typeBuilding, int lifetime){
@@ -22,47 +22,47 @@ public class House {
         this.lifetime = lifetime;
     }
 
-    public int GetId(){
+    public int getId(){
         return id;
     }
 
-    public int GetNumHouse(){
+    public int getNumHouse(){
         return numHouse;
     }
 
-    public float GetSquare(){
+    public float getSquare(){
         return square;
     }
 
-    public int GetFloor(){
+    public int getFloor(){
         return floor;
     }
 
-    public int GetCountRoom(){
+    public int getCountRoom(){
         return countRoom;
     }
 
-    public String GetNameStreet(){
+    public String getNameStreet(){
         return nameStreet;
     }
 
-    public String GetTypeBuilding(){
+    public String getTypeBuilding(){
         return typeBuilding;
     }
 
-    public int GetLifetime(){
+    public int getLifetime(){
         return lifetime;
     }
 
     @Override
     public String toString(){
-        return "ID:\t" + GetId() + ";" + "\n" +
-                "№ квартиры:\t" + GetNumHouse() + ";" + "\n" +
-                "Площадь:\t" + GetSquare() + " кв. метров;" + "\n" +
-                "Этаж:\t" + GetFloor() + ";" + "\n" +
-                "Кол-во комнат:\t" + GetCountRoom() + ";" + "\n" +
-                "Улица:\t" + GetNameStreet() + ";" + "\n" +
-                "Тип здания:\t" + GetTypeBuilding() + ";" + "\n" +
-                "Срок эксплуатации:\t" + GetLifetime() + ";" + "\n";
+        return "ID:\t" + getId() + ";" + "\n" +
+                "№ квартиры:\t" + getNumHouse() + ";" + "\n" +
+                "Площадь:\t" + getSquare() + " кв. метров;" + "\n" +
+                "Этаж:\t" + getFloor() + ";" + "\n" +
+                "Кол-во комнат:\t" + getCountRoom() + ";" + "\n" +
+                "Улица:\t" + getNameStreet() + ";" + "\n" +
+                "Тип здания:\t" + getTypeBuilding() + ";" + "\n" +
+                "Срок эксплуатации:\t" + getLifetime() + ";" + "\n";
     }
 }

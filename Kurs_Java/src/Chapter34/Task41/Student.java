@@ -1,6 +1,6 @@
 package Chapter34.Task41;
 
-public abstract class Student implements Abirurient{
+public abstract class Student implements Enrollee {
     protected String name;
-    protected abstract String GetPerson();
+    protected abstract String getPerson();
 }

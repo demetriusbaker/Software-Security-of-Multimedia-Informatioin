@@ -3,7 +3,7 @@ package Chapter34.Arithmetic;
 import java.util.Scanner;
 
 public class Vectors implements IArithmetic{
-    private double[] vector;
+    private final double[] vector;
 
     public Vectors(){
         Scanner s = new Scanner(System.in);
@@ -18,13 +18,13 @@ public class Vectors implements IArithmetic{
         }
     }
 
-    public void CompareLengthVector(double[] vector){
+    public void compareLengthVector(double[] vector){
         System.out.println(this.vector.length == vector.length ?
                 "Length is equal!" : "length isn't equal!");
     }
 
     @Override
-    public void Add(Object value) {
+    public void add(Object value) {
         double[] vector = (double[]) value;
 
         try{
@@ -39,7 +39,7 @@ public class Vectors implements IArithmetic{
     }
 
     @Override
-    public void Compare(Object value) {
+    public void compare(Object value) {
         double[] vector = (double[]) value;
         boolean isEqual = true;
 
@@ -62,13 +62,12 @@ public class Vectors implements IArithmetic{
         }
     }
 
-    public void PrintVector(){
-        for (int i = 0; i < this.vector.length; i++)
-            System.out.print(this.vector[i] + " ");
+    public void printVector(){
+        for (double v : this.vector) System.out.print(v + " ");
         System.out.println();
     }
 
-    public double[] GetVector() {
+    public double[] getVector() {
         return vector;
     }
 }

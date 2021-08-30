@@ -3,8 +3,8 @@ package Chapter5.ChapterTask;
 import java.util.List;
 
 public class Person {
-    private int number;
-    private String name;
+    private final int number;
+    private final String name;
 
     public Person(int number, String name){
         this.number = number;
@@ -17,8 +17,7 @@ public class Person {
     }
 
     public static void printList(List list){
-        for (int i = 0; i < list.size(); i++)
-            System.out.println(list.get(i));
+        for (Object o : list) System.out.println(o);
         System.out.println();
     }
 }

@@ -3,36 +3,34 @@ package Chapter2.Patient;
 import java.util.ArrayList;
 
 public class Hospital {
-    private ArrayList<Patient> patients = new ArrayList<>();
+    private final ArrayList<Patient> patients = new ArrayList<>();
 
-    public void AddPatients(Patient patient) {
+    public void addPatients(Patient patient) {
         patients.add(patient);
     }
 
-    private void Print(Patient p){
+    private void print(Patient p){
         System.out.println(p);
     }
 
-    public void Print_Info(){
+    public void printInfo(){
         for (var p : patients)
-            Print(p);
+            print(p);
     }
 
-    public void Find_List_By_Diagnosis(String diagnosis){
+    public void findListByDiagnosis(String diagnosis){
         for (var p : patients)
-            if (p != null && diagnosis.equalsIgnoreCase(p.Get_Diagnosis()))
-                Print(p);
+            if (p != null && diagnosis.equalsIgnoreCase(p.getDiagnosis()))
+                print(p);
     }
 
-    public void Find_List_By_MedCards_In_Range(int low, int high){
+    public void findListByMedCardsInRange(int low, int high){
         for (var p : patients)
-            if (p != null && IsInRange(p.Get_CardNumber(), low, high))
-                Print(p);
+            if (p != null && isInRange(p.getCardNumber(), low, high))
+                print(p);
     }
 
-    private boolean IsInRange(int value, int low, int high){
-        if (value <= high && value >= low)
-            return true;
-        return false;
+    private boolean isInRange(int value, int low, int high){
+        return value <= high && value >= low;
     }
 }

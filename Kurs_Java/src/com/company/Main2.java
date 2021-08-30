@@ -34,54 +34,28 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "0":
+                case "0" -> {
                     System.out.println("Произошел выход из программы!");
                     System.exit(0);
-                    break;
-                case "1":
-                    Task1();
-                    break;
-                case "2":
-                    Task2();
-                    break;
-                case "3":
-                    Task3();
-                    break;
-                case "4":
-                    Task4();
-                    break;
-                case "5":
-                    Task5();
-                    break;
-                case "6":
-                    Task6();
-                    break;
-                case "7":
-                    Task7();
-                    break;
-                case "8":
-                    Task8();
-                    break;
-                case "9":
-                    Task9();
-                    break;
-                case "10":
-                    Task10();
-                    break;
-                case "11":
-                    Task11();
-                    break;
-                case "12":
-                    Task12();
-                    break;
-                default:
-                    System.out.println("Некорректный ввод!");
-                    break;
+                }
+                case "1" -> task1();
+                case "2" -> task2();
+                case "3" -> task3();
+                case "4" -> task4();
+                case "5" -> task5();
+                case "6" -> task6();
+                case "7" -> task7();
+                case "8" -> task8();
+                case "9" -> task9();
+                case "10" -> task10();
+                case "11" -> task11();
+                case "12" -> task12();
+                default -> System.out.println("Некорректный ввод!");
             }
         }
     }
 
-    private static void Task1() throws IOException {
+    private static void task1() throws IOException {
         // чтение файла с бд студентами
         File file = new File("students_bsuir");
         FileReader fr = new FileReader(file);
@@ -126,7 +100,7 @@ public class Main2 {
                     new GregorianCalendar(year, month, day),
                     address, phone, faculty, course, group);
 
-            BSUIR.AddStudent(stud[i]);
+            BSUIR.addStudent(stud[i]);
 
             // также чтение файла построчно после каждой итерации
             i++;
@@ -154,7 +128,7 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "-1":
+                case "-1" -> {
                     boolean isInCycle = true;
                     while (isInCycle) {
                         System.out.println("По умолчанию:");
@@ -172,71 +146,63 @@ public class Main2 {
                         System.out.println("4) Группу");
 
                         switch (s.next()) {
-                            case "0":
-                                isInCycle = false;
-                                break;
-                            case "1":
+                            case "0" -> isInCycle = false;
+                            case "1" -> {
                                 System.out.print("Введите факультет: ");
-                                faculty = Return_String();
-                                break;
-                            case "2":
+                                faculty = returnString();
+                            }
+                            case "2" -> {
                                 System.out.print("Введите курс: ");
-                                int c = s.nextInt();
-                                course = c;
-                                break;
-                            case "3":
+                                course = s.nextInt();
+                            }
+                            case "3" -> {
                                 System.out.print("Введите год рождения: ");
                                 int year = s.nextInt();
                                 System.out.print("Введите месяц рождения: ");
                                 int month = s.nextInt();
                                 System.out.print("Введите день (месяца) рождения: ");
                                 int day_of_month = s.nextInt();
-
                                 birthday = new GregorianCalendar(year, month, day_of_month);
-                                break;
-                            case "4":
+                            }
+                            case "4" -> {
                                 System.out.print("Введите группу: ");
-                                group = Return_String();
-                                break;
+                                group = returnString();
+                            }
                         }
                     }
-                    break;
-                case "0":
-                    isInMainCycle = false;
-                    break;
-                case "1":
+                }
+                case "0" -> isInMainCycle = false;
+                case "1" -> {
                     System.out.println("----------------------------");
-                    BSUIR.Print_Info();
+                    BSUIR.printInfo();
                     System.out.println("----------------------------");
-                    break;
-                case "2":
+                }
+                case "2" -> {
                     System.out.println("----------------------------");
-                    BSUIR.Find_List_By_Faculty(faculty);
+                    BSUIR.findListByFaculty(faculty);
                     System.out.println("----------------------------");
-                    break;
-                case "3":
+                }
+                case "3" -> {
                     System.out.println("----------------------------");
-                    BSUIR.Find_List_By_Faculty_And_Course(faculty, course);
+                    BSUIR.findListByFacultyAndCourse(faculty, course);
                     System.out.println("----------------------------");
-                    break;
-                case "4":
+                }
+                case "4" -> {
                     System.out.println("----------------------------");
-                    BSUIR.Find_List_By_Year(birthday);
+                    BSUIR.findListByYear(birthday);
                     System.out.println("----------------------------");
-                    break;
-                case "5":
+                }
+                case "5" -> {
                     System.out.println("----------------------------");
-                    BSUIR.Find_List_By_Group(group);
+                    BSUIR.findListByGroup(group);
                     System.out.println("----------------------------");
-                    break;
-                default:
-                    System.out.println("Некорректный ввод!");
-                    break;
+                }
+                default -> System.out.println("Некорректный ввод!");
             }
         }
     }
 
-    private static void Task2() throws IOException {
+    private static void task2() throws IOException {
         File file = new File("patients_polyclinic");
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
@@ -270,7 +236,7 @@ public class Main2 {
             pat[i] = new Patient(id, name, surname, patronymic,
                     address, phone, cardNumber, diagnoses);
 
-            polyclinic.AddPatients(pat[i]);
+            polyclinic.addPatients(pat[i]);
 
             i++;
             line = reader.readLine();
@@ -291,13 +257,15 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "-1":
+                case "-1" -> {
                     boolean isInCycle = true;
                     while (isInCycle) {
                         System.out.println("По умолчанию:");
                         System.out.println("Диагноз: " + diagnoses);
-                        System.out.printf("Номера медицинских карт(диапазон)\n" +
-                                "Min: %d, Max: %d\n", min, max);
+                        System.out.printf("""
+                                Номера медицинских карт(диапазон)
+                                Min: %d, Max: %d
+                                """, min, max);
 
                         System.out.println("\nЧто изменить?");
                         System.out.println("0) Ничего (или выйти из этого меню)");
@@ -305,50 +273,42 @@ public class Main2 {
                         System.out.println("2) Диапазон номеров медкарт");
 
                         switch (s.next()) {
-                            case "0":
-                                isInCycle = false;
-                                break;
-                            case "1":
+                            case "0" -> isInCycle = false;
+                            case "1" -> {
                                 System.out.print("Введите диагноз: ");
-                                diagnoses = Return_String();
-                                break;
-                            case "2":
+                                diagnoses = returnString();
+                            }
+                            case "2" -> {
                                 System.out.println("Введите нижний и верхний диапазон: ");
-
                                 System.out.print("Min: ");
-                                int l = s.nextInt();
-                                min = l;
-
+                                min = s.nextInt();
                                 System.out.print("Max: ");
-                                int h = s.nextInt();
-                                max = h;
-                                break;
+                                max = s.nextInt();
+                            }
                         }
                     }
-                    break;
-                case "0":
-                    isInMainCycle = false;
-                    break;
-                case "1":
+                }
+                case "0" -> isInMainCycle = false;
+                case "1" -> {
                     System.out.println("----------------------------");
-                    polyclinic.Print_Info();
+                    polyclinic.printInfo();
                     System.out.println("----------------------------");
-                    break;
-                case "2":
+                }
+                case "2" -> {
                     System.out.println("----------------------------");
-                    polyclinic.Find_List_By_Diagnosis(diagnoses);
+                    polyclinic.findListByDiagnosis(diagnoses);
                     System.out.println("----------------------------");
-                    break;
-                case "3":
+                }
+                case "3" -> {
                     System.out.println("----------------------------");
-                    polyclinic.Find_List_By_MedCards_In_Range(min, max);
+                    polyclinic.findListByMedCardsInRange(min, max);
                     System.out.println("----------------------------");
-                    break;
+                }
             }
         }
     }
 
-    private static void Task3() throws IOException {
+    private static void task3() throws IOException {
         File file = new File("abiturient_exam");
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
@@ -363,7 +323,7 @@ public class Main2 {
 
         String line = reader.readLine();
 
-        Abiturient[] abiturients = new Abiturient[size];
+        Enrollee[] enrollees = new Enrollee[size];
         Exam exam = new Exam();
 
         int i = 0;
@@ -384,8 +344,8 @@ public class Main2 {
                     Integer.parseInt(split[10])
             };
 
-            abiturients[i] = new Abiturient(id, name, surname, patronymic, address, phone, marks);
-            exam.AddAbiturient(abiturients[i]);
+            enrollees[i] = new Enrollee(id, name, surname, patronymic, address, phone, marks);
+            exam.addEnrollee(enrollees[i]);
 
             i++;
             line = reader.readLine();
@@ -410,7 +370,7 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "-1":
+                case "-1" -> {
                     boolean isInCycle = true;
                     while (isInCycle) {
                         System.out.println("По умолчанию:");
@@ -425,55 +385,48 @@ public class Main2 {
                         System.out.println("3) Количество ТОП");
 
                         switch (s.next()) {
-                            case "0":
-                                isInCycle = false;
-                                break;
-                            case "1":
+                            case "0" -> isInCycle = false;
+                            case "1" -> {
                                 System.out.print("Введите неудовлетворительную оценку: ");
-                                int m = s.nextInt();
-                                minMark = m;
-                                break;
-                            case "2":
+                                minMark = s.nextInt();
+                            }
+                            case "2" -> {
                                 System.out.println("Введите cредний балл: ");
-                                float a = s.nextFloat();
-                                averageMark = a;
-                                break;
-                            case "3":
+                                averageMark = s.nextFloat();
+                            }
+                            case "3" -> {
                                 System.out.println("Введите количество ТОП: ");
-                                int c = s.nextInt();
-                                countBestAbitur = c;
-                                break;
+                                countBestAbitur = s.nextInt();
+                            }
                         }
                     }
-                    break;
-                case "0":
-                    isInMainCycle = false;
-                    break;
-                case "1":
+                }
+                case "0" -> isInMainCycle = false;
+                case "1" -> {
                     System.out.println("----------------------------");
-                    exam.Print_Info();
+                    exam.printInfo();
                     System.out.println("----------------------------");
-                    break;
-                case "2":
+                }
+                case "2" -> {
                     System.out.println("----------------------------");
-                    exam.Find_List_By_Bad_Mark(minMark);
+                    exam.findListByBadMark(minMark);
                     System.out.println("----------------------------");
-                    break;
-                case "3":
+                }
+                case "3" -> {
                     System.out.println("----------------------------");
-                    exam.Find_List_By_More_Average(averageMark);
+                    exam.findListByMoreAverage(averageMark);
                     System.out.println("----------------------------");
-                    break;
-                case "4":
+                }
+                case "4" -> {
                     System.out.println("----------------------------");
-                    exam.Find_List_By_Most_Average_Mark(countBestAbitur);
+                    exam.findListByMostAverageMark(countBestAbitur);
                     System.out.println("----------------------------");
-                    break;
+                }
             }
         }
     }
 
-    private static void Task4() throws IOException {
+    private static void task4() throws IOException {
         File file = new File("house_accomodation");
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
@@ -505,7 +458,7 @@ public class Main2 {
             int lifetime = Integer.parseInt(split[7]);
 
             houses[i] = new House(id, number, square, floor, rooms, street, type, lifetime);
-            accomodation.AddHouse(houses[i]);
+            accomodation.addHouse(houses[i]);
 
             i++;
             line = reader.readLine();
@@ -528,7 +481,7 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "-1":
+                case "-1" -> {
                     boolean isInCycle = true;
                     while (isInCycle) {
                         System.out.println("По умолчанию:");
@@ -544,59 +497,50 @@ public class Main2 {
                         System.out.println("3) Площадь");
 
                         switch (s.next()) {
-                            case "0":
-                                isInCycle = false;
-                                break;
-                            case "1":
+                            case "0" -> isInCycle = false;
+                            case "1" -> {
                                 System.out.print("Введите кол-во комнат: ");
-                                int r = s.nextInt();
-                                rooms = r;
-                                break;
-                            case "2":
+                                rooms = s.nextInt();
+                            }
+                            case "2" -> {
                                 System.out.println("Введите нижний этаж: ");
-                                int low = s.nextInt();
-                                minF = low;
-
+                                minF = s.nextInt();
                                 System.out.println("Введите верхний этаж: ");
-                                int high = s.nextInt();
-                                maxF = high;
-                                break;
-                            case "3":
+                                maxF = s.nextInt();
+                            }
+                            case "3" -> {
                                 System.out.println("Введите площадь: ");
-                                float sq = s.nextFloat();
-                                square = sq;
-                                break;
+                                square = s.nextFloat();
+                            }
                         }
                     }
-                    break;
-                case "0":
-                    isInMainCycle = false;
-                    break;
-                case "1":
+                }
+                case "0" -> isInMainCycle = false;
+                case "1" -> {
                     System.out.println("----------------------------");
-                    accomodation.PrintInfoList();
+                    accomodation.printInfoList();
                     System.out.println("----------------------------");
-                    break;
-                case "2":
+                }
+                case "2" -> {
                     System.out.println("----------------------------");
-                    accomodation.FindListByAmountRoom(rooms);
+                    accomodation.findListByAmountRoom(rooms);
                     System.out.println("----------------------------");
-                    break;
-                case "3":
+                }
+                case "3" -> {
                     System.out.println("----------------------------");
-                    accomodation.FindListByAmountRoomAndFloorInRange(rooms, minF, maxF);
+                    accomodation.findListByAmountRoomAndFloorInRange(rooms, minF, maxF);
                     System.out.println("----------------------------");
-                    break;
-                case "4":
+                }
+                case "4" -> {
                     System.out.println("----------------------------");
-                    accomodation.FindListByMoreSquare(square);
+                    accomodation.findListByMoreSquare(square);
                     System.out.println("----------------------------");
-                    break;
+                }
             }
         }
     }
 
-    private static void Task5() throws IOException {
+    private static void task5() throws IOException {
         File file = new File("car_shop");
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
@@ -627,7 +571,7 @@ public class Main2 {
             String regNumber = split[6];
 
             car[i] = new Car(id, brand, model, year, color, price, regNumber);
-            shop.AddCar(car[i]);
+            shop.addCar(car[i]);
 
             i++;
             line = reader.readLine();
@@ -652,7 +596,7 @@ public class Main2 {
 
             Scanner s = new Scanner(System.in);
             switch (s.next()) {
-                case "-1":
+                case "-1" -> {
                     boolean isInCycle = true;
                     while (isInCycle) {
                         System.out.println("По умолчанию:");
@@ -667,54 +611,48 @@ public class Main2 {
                         System.out.println("3) Цену");
 
                         switch (s.next()) {
-                            case "0":
-                                isInCycle = false;
-                                break;
-                            case "1":
+                            case "0" -> isInCycle = false;
+                            case "1" -> {
                                 System.out.print("Введите марку: ");
-                                brand = Return_String();
-                                break;
-                            case "2":
+                                brand = returnString();
+                            }
+                            case "2" -> {
                                 System.out.println("Введите год: ");
-                                int y = s.nextInt();
-                                year = y;
-                                break;
-                            case "3":
+                                year = s.nextInt();
+                            }
+                            case "3" -> {
                                 System.out.println("Введите цену: ");
-                                float p = s.nextFloat();
-                                price = p;
-                                break;
+                                price = s.nextFloat();
+                            }
                         }
                     }
-                    break;
-                case "0":
-                    isInMainCycle = false;
-                    break;
-                case "1":
+                }
+                case "0" -> isInMainCycle = false;
+                case "1" -> {
                     System.out.println("----------------------------");
-                    shop.PrintInfoList();
+                    shop.printInfoList();
                     System.out.println("----------------------------");
-                    break;
-                case "2":
+                }
+                case "2" -> {
                     System.out.println("----------------------------");
-                    shop.FindListByBrand(brand);
+                    shop.findListByBrand(brand);
                     System.out.println("----------------------------");
-                    break;
-                case "3":
+                }
+                case "3" -> {
                     System.out.println("----------------------------");
-                    shop.FindListByIssueYear(brand, year);
+                    shop.findListByIssueYear(brand, year);
                     System.out.println("----------------------------");
-                    break;
-                case "4":
+                }
+                case "4" -> {
                     System.out.println("----------------------------");
-                    shop.FindListByPriceMore(year, price);
+                    shop.findListByPriceMore(year, price);
                     System.out.println("----------------------------");
-                    break;
+                }
             }
         }
     }
 
-    private static String Return_String() {
+    private static String returnString() {
         Scanner scanner = new Scanner(System.in);
         String str = "";
         if (scanner.hasNextLine())
@@ -722,7 +660,7 @@ public class Main2 {
         return str;
     }
 
-    private static void Task6() {
+    private static void task6() {
         Circle[] circles = new Circle[4];
         circles[0] = new Circle();
         circles[1] = new Circle(2.5);
@@ -745,20 +683,20 @@ public class Main2 {
                     isInMainCycle = false;
                     break;
                 case "1":
-                    RealiseCircle(circles, 0);
+                    realiseCircle(circles, 0);
                     break;
                 case "2":
-                    RealiseCircle(circles, 1);
+                    realiseCircle(circles, 1);
                     break;
                 case "3":
-                    RealiseCircle(circles, 2);
+                    realiseCircle(circles, 2);
                     break;
                 case "4":
-                    RealiseCircle(circles, 3);
+                    realiseCircle(circles, 3);
                     break;
                 case "5":
                     for (int i = 0; i < circles.length; i++)
-                        RealiseCircle(circles, i);
+                        realiseCircle(circles, i);
                     break;
                 default:
                     System.out.println("Некорректный ввод!");
@@ -767,24 +705,24 @@ public class Main2 {
         }
     }
 
-    private static void RealiseCircle(Circle[] c, int i) {
-        Print(c[i].GetCharacteristics());
-        Print("Square: " + c[i].GetSquare());
-        Print("Length: " + c[i].GetLengthCircle());
+    private static void realiseCircle(Circle[] c, int i) {
+        Print(c[i].getCharacteristics());
+        Print("Square: " + c[i].getSquare());
+        Print("Length: " + c[i].getLengthCircle());
 
-        c[i].ChangeXAndY(2.5, 2.5);
-        c[i].ChangeRadius(10);
+        c[i].changeXAndY(2.5, 2.5);
+        c[i].changeRadius(10);
 
         System.out.println("--------------------");
 
-        Print(c[i].GetCharacteristics());
-        Print("Square: " + c[i].GetSquare());
-        Print("Length: " + c[i].GetLengthCircle());
+        Print(c[i].getCharacteristics());
+        Print("Square: " + c[i].getSquare());
+        Print("Length: " + c[i].getLengthCircle());
 
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task7() {
+    private static void task7() {
         Storage[] store = new Storage[2];
         store[0] = new Storage();
         store[1] = new Storage(100, 2.5f);
@@ -803,14 +741,14 @@ public class Main2 {
                     isInMainCycle = false;
                     break;
                 case "1":
-                    RealiseStorage(store, 0);
+                    realiseStorage(store, 0);
                     break;
                 case "2":
-                    RealiseStorage(store, 1);
+                    realiseStorage(store, 1);
                     break;
                 case "3":
                     for (int i = 0; i < store.length; i++)
-                        RealiseStorage(store, i);
+                        realiseStorage(store, i);
                     break;
                 default:
                     System.out.println("Некорректный ввод!");
@@ -819,50 +757,50 @@ public class Main2 {
         }
     }
 
-    private static void RealiseStorage(Storage[] s, int i) {
-        Print(s[i].GetInfo());
-        Print(s[i].ComparePrice(10.5f));
+    private static void realiseStorage(Storage[] s, int i) {
+        Print(s[i].getInfo());
+        Print(s[i].comparePrice(10.5f));
 
-        s[i].ChangeCountProduct(50);
-        s[i].ChangePrice(5.2f);
+        s[i].changeCountProduct(50);
+        s[i].changePrice(5.2f);
 
         System.out.println("--------------------");
 
-        Print(s[i].GetInfo());
+        Print(s[i].getInfo());
 
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task8() {
+    private static void task8() {
         Book book1 = new Book();
-        book1.FindInfoAboutBook("Собачье сердце");
+        book1.findInfoAboutBook("Собачье сердце");
 
         System.out.println();
 
-        book1.SetAuthor();
-        book1.SetName();
-        book1.SetYear();
-        book1.SetPages();
-        book1.FindInfoAboutBook("Мы");
+        book1.setAuthor();
+        book1.setName();
+        book1.setYear();
+        book1.setPages();
+        book1.findInfoAboutBook("Мы");
 
         System.out.println("--------------------");
 
         Book book2 = new Book("Свифт Джонатан",
                 "Путешествия Гулливера", 1727, 400);
-        book2.FindInfoAboutBook("Путешествия Гулливера");
+        book2.findInfoAboutBook("Путешествия Гулливера");
 
         System.out.println();
 
-        book2.SetAuthor("Джордж Оруэлл");
-        book2.SetName("1984");
-        book2.SetYear(1949);
-        book2.SetPages(318);
-        book2.FindInfoAboutBook("1984");
+        book2.setAuthor("Джордж Оруэлл");
+        book2.setName("1984");
+        book2.setYear(1949);
+        book2.setPages(318);
+        book2.findInfoAboutBook("1984");
 
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task9() {
+    private static void task9() {
         Fraction fraction = new Fraction();
         System.out.println("Default: " + fraction);
 
@@ -917,7 +855,7 @@ public class Main2 {
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task10() {
+    private static void task10() {
         double[] v1 = {1, 2, 4};
         double[] v2 = {2, 7, -1};
         double[] v3 = {1, 3, 6};
@@ -988,7 +926,7 @@ public class Main2 {
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task11() {
+    private static void task11() {
         char[] c = {'c', '3', 'r', 'q', 'a', 'u'};
         char[] c1 = {'3', 'z', 'r', 'x', 'c'};
         char[] c2 = {'a', 'b', 'c'};
@@ -1037,8 +975,7 @@ public class Main2 {
         for (int i = 0; i < array.length - 1; i++){
             System.out.println(i + 1 + " ***");
             char[] symbols = MultiSymPower.InnerTool.GetDeal(array[i], array[i + 1], true);
-            for (int j = 0; j < symbols.length; j++)
-                System.out.print(symbols[j] + " ");
+            for (char symbol : symbols) System.out.print(symbol + " ");
             System.out.println();
             System.out.println();
         }
@@ -1046,7 +983,7 @@ public class Main2 {
         System.out.println("++++++++++++++++++++");
     }
 
-    private static void Task12() {
+    private static void task12() {
         QuaEquation[] quaEquations = {
                 new QuaEquation(3,2,-1),
                 new QuaEquation(0,6,59),
@@ -1069,7 +1006,7 @@ public class Main2 {
                     Arrays.toString(qe.getIncreasingInterval()));
             System.out.println("Decreasing interval: " +
                     Arrays.toString(qe.getDecreasingInterval()));
-            System.out.println(QuaEquation.PrintInfoMaxMixRoots(qe.findX()));
+            System.out.println(QuaEquation.printInfoMaxMixRoots(qe.findX()));
         }
 
         System.out.println("++++++++++++++++++++");

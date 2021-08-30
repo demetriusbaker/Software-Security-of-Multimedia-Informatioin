@@ -8,7 +8,7 @@ public class Engineer implements Employee{
     }
 
     @Override
-    public String GetInfo() {
+    public String getInfo() {
         return "Name: " + name + ". " + "He works a software engineer.";
     }
 }

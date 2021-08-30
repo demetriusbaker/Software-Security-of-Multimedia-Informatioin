@@ -5,13 +5,13 @@ import Chapter1.*;
 import java.util.Scanner;
 
 public class Main1 {
-    private static int matr1[][] = {
+    private static final int[][] matr1 = {
             {2,9,4},
             {7,5,3},
             {6,1,8},
     };
 
-    private static int matr2[][] = {
+    private static final int[][] matr2 = {
             {1,2,3},
             {4,5,6},
             {7,8,9},
@@ -27,214 +27,127 @@ public class Main1 {
         System.out.println("3) 21 - 30;");
         System.out.println("4) 31 - 40;");
 
-        switch (in.nextInt()){
-            case 1:
+        switch (in.nextInt()) {
+            case 1 -> {
                 a = 1;
-
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_1(8); // 1 8 64 512
-
+                Part_1.solve_1(8); // 1 8 64 512
                 System.out.printf("%d\t-------------\n", a++);
-
                 var two = new Part_1();
-
-                two.Solve_2_1(1234); // false
-                two.Solve_2_1(5849); // true
+                two.solve_2_1(1234); // false
+                two.solve_2_1(5849); // true
                 System.out.println();
-                two.Solve_2_2(832); // false
-                two.Solve_2_2(233); // true
+                two.solve_2_2(832); // false
+                two.solve_2_2(233); // true
                 System.out.println();
-                two.Solve_2_3(122); // false
-                two.Solve_2_3(63); // false
-                two.Solve_2_3(86); // true
+                two.solve_2_3(122); // false
+                two.solve_2_3(63); // false
+                two.solve_2_3(86); // true
                 System.out.println();
-                two.Solve_2_4(8,9,1); // false
-                two.Solve_2_4(5,3,4); // true
+                two.solve_2_4(8, 9, 1); // false
+                two.solve_2_4(5, 3, 4); // true
                 System.out.println();
-                two.Solve_2_5(8874); // false
-                two.Solve_2_5(9036); // true
+                two.solve_2_5(8874); // false
+                two.solve_2_5(9036); // true
                 System.out.println();
-                two.Solve_2_6(23486432); // false
-                two.Solve_2_6(98089); // true
-
+                two.solve_2_6(23486432); // false
+                two.solve_2_6(98089); // true
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_3(3.14, 2.5);
-
+                Part_1.solve_3(3.14, 2.5);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_4();
-
+                Part_1.solve_4();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_5();
-
+                Part_1.solve_5();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_6(2);
-
+                Part_1.solve_6(2);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_7(1,10);
-
+                Part_1.solve_7(1, 10);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_8();
-
+                Part_1.solve_8();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_9();
-
+                Part_1.solve_9();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_1.Solve_10();
-
-                break;
-            case 2:
+                Part_1.solve_10();
+            }
+            case 2 -> {
                 a = 11;
-
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_11();
-
+                Part_2.solve_11();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_12();
-
+                Part_2.solve_12();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_13();
-
+                Part_2.solve_13();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_14();
-
+                Part_2.solve_14();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_15();
-
+                Part_2.solve_15();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_16();
-
+                Part_2.solve_16();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_17('0', '0', '3', '1', '0', '2'); // happy
-                Part_2.Solve_17('5', '6', '7', '5', '7', '6'); // happy
-                Part_2.Solve_17('4', '5', '6', '4', '0', '2'); // simple
-
+                Part_2.solve_17('0', '0', '3', '1', '0', '2'); // happy
+                Part_2.solve_17('5', '6', '7', '5', '7', '6'); // happy
+                Part_2.solve_17('4', '5', '6', '4', '0', '2'); // simple
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_18();
-
+                Part_2.solve_18();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_2.Solve_19(113);
-                Part_2.Solve_19(72);
-
+                Part_2.solve_19(113);
+                Part_2.solve_19(72);
                 System.out.printf("%d\t-------------\n", a++);
-
                 for (int i = 0; i < 25; i++)
-                    Part_2.Solve_20();
-
-                break;
-            case 3:
+                    Part_2.solve_20();
+            }
+            case 3 -> {
                 a = 21;
-
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_21(23466); // 6 hourS
-                Part_3.Solve_21(10644); // 2 hourS
-                Part_3.Solve_21(3600); // 1 hour
-                Part_3.Solve_21(1249); // Less than hour
-
+                Part_3.solve_21(23466); // 6 hourS
+                Part_3.solve_21(10644); // 2 hourS
+                Part_3.solve_21(3600); // 1 hour
+                Part_3.solve_21(1249); // Less than hour
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_22();
-
+                Part_3.solve_22();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_23();
-
+                Part_3.solve_23();
                 System.out.printf("%d\t-------------\n", a++);
-
                 for (int i = 0; i < 5; i++)
-                    Part_3.Solve_24();
-
+                    Part_3.solve_24();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_25();
-
+                Part_3.solve_25();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_26();
-
+                Part_3.solve_26();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_27();
-
+                Part_3.solve_27();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_28();
-
+                Part_3.solve_28();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_29();
-
+                Part_3.solve_29();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_3.Solve_30();
-
-                break;
-            case 4:
+                Part_3.solve_30();
+            }
+            case 4 -> {
                 a = 31;
-
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_31();
-
+                Part_4.solve_31();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_32();
-
+                Part_4.solve_32();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_33();
-
+                Part_4.solve_33();
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_34(8);
-
+                Part_4.solve_34(8);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_35(5,6);
-
+                Part_4.solve_35(5, 6);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_36(5);
-
+                Part_4.solve_36(5);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_37(4,5);
-
+                Part_4.solve_37(4, 5);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_38(matr1);
-                Part_4.Solve_38(matr2);
-
+                Part_4.solve_38(matr1);
+                Part_4.solve_38(matr2);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_39(4,4);
-
+                Part_4.solve_39(4, 4);
                 System.out.printf("%d\t-------------\n", a++);
-
-                Part_4.Solve_40(10);
-
-                break;
-            default:
-                System.out.println("Incorrect input!");
-            break;
+                Part_4.solve_40(10);
+            }
+            default -> System.out.println("Incorrect input!");
         }
     }
 }

@@ -1,8 +1,8 @@
 package Chapter34.Task45;
 
 public class Tanker extends Cargoship{
-    private int countContainers;
-    private float priceContainers;
+    private final int countContainers;
+    private final float priceContainers;
 
     public Tanker(int cargoWeight, float price, int countContainers, float priceContainers) {
         super(cargoWeight, price);
@@ -11,12 +11,12 @@ public class Tanker extends Cargoship{
     }
 
     @Override
-    public String GetInfo() {
+    public String getInfo() {
         return "It's tanker. It more big, that cargo ship and transport containers";
     }
 
     @Override
-    public String GetCharacteristics() {
+    public String getCharacteristics() {
         return "Next characteristics\n" +
                 "Cargo weight: " + cargoWeight + "\n" +
                 "Price: " + price + "\n" +

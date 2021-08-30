@@ -1,7 +1,8 @@
 package Chapter34.Task47;
 
 public class Tram extends PublicTransport{
-    private float power, tonnes;
+    private final float power;
+    private final float tonnes;
 
     public Tram(String nameTransport, float power, float tonnes){
         this.nameTransport = nameTransport;
@@ -10,7 +11,7 @@ public class Tram extends PublicTransport{
     }
 
     @Override
-    public String GetInfoTransport() {
+    public String getInfoTransport() {
         return "It's tram - public transport, working by electricity\n" +
                 "Next characteristics" + "\n" +
                 "Name: " + nameTransport + "\n" +
@@ -19,7 +20,7 @@ public class Tram extends PublicTransport{
     }
 
     @Override
-    public String ShowSpeed() {
+    public String showSpeed() {
         return "The speed of " + nameTransport + " is " + power / (tonnes * 1000) +
                 " kilometers per hour";
     }

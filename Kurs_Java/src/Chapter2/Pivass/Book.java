@@ -22,50 +22,54 @@ public class Book {
         this.pages = pages;
     }
 
-    public void SetAuthor(){
+    public void setAuthor(){
         System.out.println("Введите автора: ");
-        author = ReturnString();
+        author = returnString();
     }
 
-    public void SetAuthor(String author){
+    public void setAuthor(String author){
         this.author = author;
     }
 
-    public void SetName(){
+    public void setName(){
         System.out.println("Введите название произведения: ");
-        name = ReturnString();
+        name = returnString();
     }
 
-    public void SetName(String name){
+    public void setName(String name){
         this.name = name;
     }
 
-    public void SetYear(){
+    public void setYear(){
         System.out.println("Введите год выпуска: ");
-        year = ReturnInt();
+        year = returnInt();
     }
 
-    public void SetYear(int year){
+    public void setYear(int year){
         this.year = year;
     }
 
-    public void SetPages(){
+    public void setPages(){
         System.out.println("Введите количество страниц: ");
-        pages = ReturnInt();
+        pages = returnInt();
     }
 
-    public void SetPages(int pages){
+    public void setPages(int pages){
         this.pages = pages;
     }
 
-    public void FindInfoAboutBook(String name){
+    public void findInfoAboutBook(String name){
         if (name.equals(this.name))
-            System.out.printf("Автор: %s\nНазвание: %s\n" +
-                    "Год выпуска: %d\nКоличество страниц: %d\n",
+            System.out.printf("""
+                            Автор: %s
+                            Название: %s
+                            Год выпуска: %d
+                            Количество страниц: %d
+                            """,
                     author, name, year, pages);
     }
 
-    private int ReturnInt(){
+    private int returnInt(){
         Scanner scanner = new Scanner(System.in);
         int num = 0;
         if (scanner.hasNextInt())
@@ -73,7 +77,7 @@ public class Book {
         return num;
     }
 
-    private String ReturnString(){
+    private String returnString(){
         Scanner scanner = new Scanner(System.in);
         String str = "";
         if (scanner.hasNextLine())

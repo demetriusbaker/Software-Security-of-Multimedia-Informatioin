@@ -3,10 +3,6 @@ package Chapter2.Pivass;
 public class MultiSymPower {
     private char[] c;
 
-    public MultiSymPower(){
-        c = new char[]{'a', 'b', 'c', 'd', 'e'};
-    }
-
     public MultiSymPower(char[] c){
         this.c = c;
     }
@@ -16,45 +12,41 @@ public class MultiSymPower {
     }
 
     public void printC(char[] c){
-        for (int i = 0; i < c.length; i++)
-            System.out.print(c[i] + " ");
+        for (char value : c) System.out.print(value + " ");
         System.out.println();
     }
 
     public void printC(){
-        for (int i = 0; i < this.c.length; i++)
-            System.out.print(this.c[i] + " ");
+        for (char value : this.c) System.out.print(value + " ");
         System.out.println();
     }
 
     private void intersect(char[] c){
-        for (int i = 0; i < this.c.length; i++)
-            for (int j = 0; j < c.length; j++)
-                if (c[j] == this.c[i])
-                    System.out.print(this.c[i] + " ");
+        for (char value : this.c)
+            for (char item : c)
+                if (item == value)
+                    System.out.print(value + " ");
         System.out.println();
     }
 
     private void union(char[] c){
-        for (int i = 0; i < this.c.length; i++)
-            System.out.print(this.c[i] + " ");
-        for (int i = 0; i < c.length; i++)
-            System.out.print(c[i] + " ");
+        for (char value : this.c) System.out.print(value + " ");
+        for (char value : c) System.out.print(value + " ");
         System.out.println();
     }
 
     private void residual(char[] c){
-        for (int i = 0; i < this.c.length; i++){
+        for (char value : this.c) {
             boolean isHas = false;
 
-            for (int j = 0; j < c.length; j++)
-                if (c[j] == this.c[i]){
+            for (char item : c)
+                if (item == value) {
                     isHas = true;
                     break;
                 }
 
             if (!isHas)
-                System.out.print(this.c[i] + " ");
+                System.out.print(value + " ");
         }
         System.out.println();
     }
@@ -81,44 +73,42 @@ public class MultiSymPower {
     public void subtract(char[] c){
         System.out.println("Subtract:");
         int countBuf = 0;
-        char[] bufer = new char[this.c.length];
+        char[] buffer = new char[this.c.length];
 
-        for (int i = 0; i < bufer.length; i++){
+        for (int i = 0; i < buffer.length; i++){
             boolean isHas = false;
 
-            for (int j = 0; j < c.length; j++)
-                if (c[j] == this.c[i]){
+            for (char value : c)
+                if (value == this.c[i]) {
                     isHas = true;
                     break;
                 }
 
             if (!isHas)
-                bufer[countBuf++] = this.c[i];
+                buffer[countBuf++] = this.c[i];
         }
 
         this.c = new char[countBuf];
 
-        for (int i = 0; i < this.c.length; i++)
-            this.c[i] = bufer[i];
+        System.arraycopy(buffer, 0, this.c, 0, this.c.length);
     }
 
     public void multiply(char[] c){
         System.out.println("Multiply:");
         int countBuf = 0;
-        char[] bufer = new char[Math.max(this.c.length, c.length)];
+        char[] buffer = new char[Math.max(this.c.length, c.length)];
 
-        for (int i = 0; i < this.c.length; i++){
-            for (int j = 0; j < c.length; j++)
-                if (c[j] == this.c[i]){
-                    bufer[countBuf++] = c[j];
+        for (char value : this.c) {
+            for (char item : c)
+                if (item == value) {
+                    buffer[countBuf++] = item;
                     break;
                 }
         }
 
         this.c = new char[countBuf];
 
-        for (int i = 0; i < this.c.length; i++)
-            this.c[i] = bufer[i];
+        System.arraycopy(buffer, 0, this.c, 0, this.c.length);
     }
 
     public void findElementByIndex(int index){

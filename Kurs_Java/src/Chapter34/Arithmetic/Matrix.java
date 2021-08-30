@@ -2,10 +2,10 @@ package Chapter34.Arithmetic;
 
 import java.util.Scanner;
 
-public class Matrixs implements IArithmetic{
+public class Matrix implements IArithmetic{
     private double[][] matrix;
 
-    public void CreateMatrix(boolean isRandom){
+    public void createMatrix(boolean isRandom){
         Scanner s = new Scanner(System.in);
 
         System.out.println("Введите длину матрицы");
@@ -29,13 +29,13 @@ public class Matrixs implements IArithmetic{
         }
     }
 
-    public void PrintMatrixElement(int x, int y){
+    public void printMatrixElement(int x, int y){
         if (y < matrix.length && x < matrix[0].length)
             System.out.println("Value of element (" + x + " , " +
                     y + "): " + matrix[y][x]);
     }
 
-    public void DivideMatrix(double div){
+    public void divideMatrix(double div){
         if (div != 0)
             for (int i = 0; i < matrix.length; i++)
                 for (int j = 0; j < matrix[i].length; j++)
@@ -43,7 +43,7 @@ public class Matrixs implements IArithmetic{
     }
 
     @Override
-    public void Add(Object value) {
+    public void add(Object value) {
         double[][] matrix = (double[][]) value;
 
         try{
@@ -61,7 +61,7 @@ public class Matrixs implements IArithmetic{
     }
 
     @Override
-    public void Compare(Object value) {
+    public void compare(Object value) {
         double[][] matrix = (double[][]) value;
         boolean isEqual = true;
 
@@ -86,7 +86,7 @@ public class Matrixs implements IArithmetic{
         }
     }
 
-    public void PrintMatrix(){
+    public void printMatrix(){
         for (double[] mat : matrix) {
             for (var m : mat)
                 System.out.print(m + "\t");
@@ -94,7 +94,7 @@ public class Matrixs implements IArithmetic{
         }
     }
 
-    public double[][] GetMatrix() {
+    public double[][] getMatrix() {
         return matrix;
     }
 }

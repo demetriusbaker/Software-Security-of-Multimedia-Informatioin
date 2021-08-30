@@ -24,29 +24,29 @@ public class Storage {
         this.price = price;
     }
 
-    public void ChangeCountProduct(int countProduct){
+    public void changeCountProduct(int countProduct){
         this.countProduct = countProduct;
     }
 
-    public void ChangePrice(float price){
+    public void changePrice(float price){
         this.price = price;
     }
 
-    public float CalculateTotalCost(){
+    public float calculateTotalCost(){
         return price * countProduct;
     }
 
-    public String ComparePrice(float priceCompare){
+    public String comparePrice(float priceCompare){
         return price == priceCompare ?
                 "Equals" : price > priceCompare ?
                 "Default price is more" :
                 "Default price is less";
     }
 
-    public String GetInfo(){
+    public String getInfo(){
         return "Price: " + price + "$\n" +
                 "Count of product: " + countProduct + "\n" +
-                "Total cost: " + CalculateTotalCost() + "\n";
+                "Total cost: " + calculateTotalCost() + "\n";
     }
 
     /*

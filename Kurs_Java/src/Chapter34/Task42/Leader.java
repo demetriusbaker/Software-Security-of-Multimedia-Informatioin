@@ -1,7 +1,7 @@
 package Chapter34.Task42;
 
 public class Leader extends Engineer {
-    private String statusWork;
+    private final String statusWork;
 
     public Leader(String name, String statusWork) {
         super(name);
@@ -9,7 +9,7 @@ public class Leader extends Engineer {
     }
 
     @Override
-    public String GetInfo() {
+    public String getInfo() {
         return "Name: " + name + ";\n" +
                 "Status work: " + statusWork + ";\n" +
                 "He is a leader (main software engineer).";

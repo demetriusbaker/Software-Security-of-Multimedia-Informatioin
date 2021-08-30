@@ -1,7 +1,7 @@
 package Chapter34.Square;
 
 public class RightTriangle implements ISquare{
-    private double length, width;
+    private final double length, width;
 
     public RightTriangle(double length, double width){
         this.length = length;
@@ -9,7 +9,7 @@ public class RightTriangle implements ISquare{
     }
 
     @Override
-    public void GetSquareInfo() {
+    public void getSquareInfo() {
         System.out.println("Square of right triangle is " +
                 length * width / 2);
     }

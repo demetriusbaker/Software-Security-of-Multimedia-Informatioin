@@ -4,20 +4,20 @@ import java.util.Scanner;
 
 public class Strings implements IArithmetic{
     private char[] c;
-    private Scanner s = new Scanner(System.in);
 
     public Strings(){
         System.out.print("Enter: ");
+        Scanner s = new Scanner(System.in);
         c = s.nextLine().toCharArray();
     }
 
-    public void OutputValueByIndex(int i){
+    public void outputValueByIndex(int i){
         if (i < c.length)
             System.out.printf("Value of index %d: %c\n", i, c[i]);
     }
 
     @Override
-    public void Add(Object value) {
+    public void add(Object value) {
         char[] c = (char[]) value;
         String s = String.valueOf(c);
         String thisS = String.valueOf(this.c);
@@ -25,7 +25,7 @@ public class Strings implements IArithmetic{
     }
 
     @Override
-    public void Compare(Object value) {
+    public void compare(Object value) {
         char[] c = (char[]) value;
         boolean isEqual = true;
 
@@ -48,9 +48,8 @@ public class Strings implements IArithmetic{
         }
     }
 
-    public void PrintSymbols(){
-        for (int i = 0; i < c.length; i++)
-            System.out.print(c[i]);
+    public void printSymbols(){
+        for (char value : c) System.out.print(value);
         System.out.println();
     }
 

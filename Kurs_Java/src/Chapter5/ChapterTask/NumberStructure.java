@@ -4,14 +4,10 @@ import java.util.LinkedList;
 import java.util.List;
 
 public class NumberStructure {
-    private List<Double> numbers;
+    private final List<Double> numbers;
 
     public NumberStructure(){
         numbers = new LinkedList<>();
-    }
-
-    public NumberStructure(List<Double> numbers){
-        this.numbers = numbers;
     }
 
     public void addNumber(double value) {
@@ -23,17 +19,17 @@ public class NumberStructure {
     }
 
     public void deleteNumber(double value){
-        numbers.remove(numbers.indexOf(value));
+        numbers.remove(value);
     }
 
     public void findSimilarNumber(double value){
-        double minModul = numbers.get(0);
+        double minModule = numbers.get(0);
 
         for(var n : numbers)
-            if (Math.abs(n - value) < Math.abs(minModul - value))
-                minModul = n;
+            if (Math.abs(n - value) < Math.abs(minModule - value))
+                minModule = n;
 
-        System.out.println("Number closest to given: " + minModul);
+        System.out.println("Number closest to given: " + minModule);
     }
 
     public void getList(){

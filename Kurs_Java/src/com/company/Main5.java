@@ -156,14 +156,14 @@ public class Main5 {
         System.out.println("Объединение");
 
         Student.toUnion(listStudent, listStudent2);
-        Collections.sort(listStudent, Student.comparator);
+        listStudent.sort(Student.comparator);
         Student.printList(listStudent);
 
         System.out.println("----------------------------");
         System.out.println("Пересечение");
 
         Student.toIntersect(listStudent, listStudent3);
-        Collections.sort(listStudent, Student.comparator);
+        listStudent.sort(Student.comparator);
         Student.printList(listStudent);
 
         System.out.println("----------------------------");

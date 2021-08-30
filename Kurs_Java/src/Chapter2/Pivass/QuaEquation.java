@@ -4,7 +4,7 @@ import static java.lang.StrictMath.pow;
 import static java.lang.StrictMath.sqrt;
 
 public class QuaEquation {
-    private double a, b, c;
+    private final double a, b, c;
 
     public QuaEquation(double a, double b, double c){
         this.a = a;
@@ -99,10 +99,10 @@ public class QuaEquation {
         return interval;
     }
 
-    public static String PrintInfoMaxMixRoots(double[] x){
+    public static String printInfoMaxMixRoots(double[] x){
         if (x.length == 2){
-            double max = x[0] > x[1] ? x[0] : x[1];
-            double min = x[0] > x[1] ? x[1] : x[0];
+            double max = Math.max(x[0], x[1]);
+            double min = Math.min(x[0], x[1]);
 
             return "Max root: " + max +
                     "\n" + "Min root: " + min;

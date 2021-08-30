@@ -7,7 +7,7 @@ import static java.lang.StrictMath.abs;
 import static java.lang.StrictMath.random;
 
 public class Part_4 {
-    public static void Solve_31(){
+    public static void solve_31(){
         Scanner s = new Scanner(System.in);
         int n = 0;
 
@@ -36,7 +36,7 @@ public class Part_4 {
         System.out.println();
     }
 
-    public static void Solve_32(){
+    public static void solve_32(){
         int[][] matrix = new int[6][7];
         for (int i = 0; i < matrix.length; i++)
             for (int j = 0; j < matrix[i].length; j++)
@@ -72,7 +72,7 @@ public class Part_4 {
         System.out.println();
     }
 
-    public static void Solve_33(){
+    public static void solve_33(){
         int[][] stud = new int[15][3];
         for (int i = 0; i < stud.length; i++)
             for (int j = 0; j < stud[i].length; j++){
@@ -99,7 +99,7 @@ public class Part_4 {
         }
     }
 
-    public static void Solve_34(int n){
+    public static void solve_34(int n){
         int[][] matrix = new int[n][n];
         int sum = 0, amount = 0;
 
@@ -119,7 +119,7 @@ public class Part_4 {
         System.out.printf("Sum: %d, amount: %d\n", sum, amount);
     }
 
-    public static void Solve_35(int p, int t) {
+    public static void solve_35(int p, int t) {
         int[][] A = new int[p][t];
         int k = 0, sumCols = 0;
 
@@ -146,7 +146,7 @@ public class Part_4 {
         System.out.printf("Amount of k: %d\n", k);
     }
 
-    public static void Solve_36(int n){
+    public static void solve_36(int n){
         int[][] matrix = new int[n][n];
 
         for(int i = 0; i < n; i++) {
@@ -191,7 +191,7 @@ public class Part_4 {
         }
     }
 
-    public static void Solve_37(int n, int m){
+    public static void solve_37(int n, int m){
         int[][] matrix = new int[n][m];
 
         for(int i = 0; i < n; i++) {
@@ -234,7 +234,7 @@ public class Part_4 {
         }
     }
 
-    public static void Solve_38(int[][] matrix){
+    public static void solve_38(int[][] matrix){
         if (matrix.length == matrix[0].length){
             int[] rows = new int[matrix.length];
             int[] cols = new int[matrix.length];
@@ -272,7 +272,7 @@ public class Part_4 {
         }
     }
 
-    public static void Solve_39(int n, int t){
+    public static void solve_39(int n, int t){
         int[][] matrix = new int[n][t];
 
         for(int i = 0; i < n; i++) {
@@ -311,7 +311,7 @@ public class Part_4 {
         System.out.println();
     }
 
-    public static void Solve_40(int n){
+    public static void solve_40(int n){
         int[][] matrix = new int[n][n];
 
         for(int i = 0; i < n; i++) {

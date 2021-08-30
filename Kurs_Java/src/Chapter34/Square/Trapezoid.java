@@ -1,7 +1,7 @@
 package Chapter34.Square;
 
 public class Trapezoid implements ISquare {
-    private double smallBase, largeBase, height;
+    private final double smallBase, largeBase, height;
 
     public Trapezoid(double smallBase, double largeBase, double height){
         this.smallBase = smallBase;
@@ -10,7 +10,7 @@ public class Trapezoid implements ISquare {
     }
 
     @Override
-    public void GetSquareInfo() {
+    public void getSquareInfo() {
         System.out.println("Square of trapezoid is " +
                 (smallBase + largeBase) * height / 2);
     }

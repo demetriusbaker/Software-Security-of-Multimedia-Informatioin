@@ -1,13 +1,13 @@
 package Chapter2.Car;
 
 public class Car {
-    private int id;
-    private String brand;
-    private String model;
-    private int issueYear;
-    private String color;
-    private float price;
-    private String regNumber;
+    private final int id;
+    private final String brand;
+    private final String model;
+    private final int issueYear;
+    private final String color;
+    private final float price;
+    private final String regNumber;
 
     public Car(int id, String brand, String model, int issueYear,
                 String color, float price, String regNumber){
@@ -20,43 +20,43 @@ public class Car {
         this.regNumber = regNumber;
     }
 
-    public int GetID(){
+    public int getID(){
         return id;
     }
 
-    public String GetBrand(){
+    public String getBrand(){
         return brand;
     }
 
-    public String GetModel(){
+    public String getModel(){
         return model;
     }
 
-    public int GetIssueYear(){
+    public int getIssueYear(){
         return issueYear;
     }
 
-    public String GetColor(){
+    public String getColor(){
         return color;
     }
 
-    public float GetPrice(){
+    public float getPrice(){
         return price;
     }
 
-    public String GetRegNumber(){
+    public String getRegNumber(){
         return regNumber;
     }
 
     @Override
     public String toString(){
-        return "ID - " + GetID() + ";" + "\n" +
-                "Бренд - " + GetBrand() + ";" + "\n" +
-                "Модель - " + GetModel() + ";" + "\n" +
-                "Год выпуска - " + GetIssueYear() + "год;" + "\n" +
-                "Цвет - " + GetColor() + ";" + "\n" +
-                "Цена - " + GetPrice() + "$;" + "\n" +
+        return "ID - " + getID() + ";" + "\n" +
+                "Бренд - " + getBrand() + ";" + "\n" +
+                "Модель - " + getModel() + ";" + "\n" +
+                "Год выпуска - " + getIssueYear() + "год;" + "\n" +
+                "Цвет - " + getColor() + ";" + "\n" +
+                "Цена - " + getPrice() + "$;" + "\n" +
                 "Регистрационный номер - " +
-                GetRegNumber() + ";" + "\n";
+                getRegNumber() + ";" + "\n";
     }
 }

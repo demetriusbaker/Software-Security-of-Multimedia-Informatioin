@@ -1,7 +1,7 @@
 package Chapter34.Norm;
 
 public class ComplexNumbers implements INorm {
-    private double real, imaginary;
+    private final double real, imaginary;
 
     public ComplexNumbers(double real, double imaginary){
         this.real = real;
@@ -9,7 +9,7 @@ public class ComplexNumbers implements INorm {
     }
 
     @Override
-    public void GetNorm() {
+    public void getNorm() {
         System.out.println("The norm of complex number: " +
                 Math.sqrt(real * real + imaginary * imaginary));
     }

@@ -8,7 +8,7 @@ import java.util.Scanner;
 import static java.lang.StrictMath.*;
 
 public class Part_3 {
-    public static void Solve_21(int seconds){
+    public static void solve_21(int seconds){
         if (seconds >= 0 && seconds <= 28800){
             int hours = seconds / 3600;
 
@@ -23,7 +23,7 @@ public class Part_3 {
         }
     }
 
-    public static void Solve_22(){
+    public static void solve_22(){
         int[] a = new int[8];
 
         for (int i = 0; i < a.length; i++){
@@ -36,7 +36,7 @@ public class Part_3 {
         System.out.println();
     }
 
-    public static void Solve_23(){
+    public static void solve_23(){
         final int size = 5;
         int[] a = new int[size];
         int[] b = new int[size];
@@ -67,7 +67,7 @@ public class Part_3 {
             System.out.println("Second average!");
     }
 
-    public static void Solve_24(){
+    public static void solve_24(){
         final int size = 4;
         int[] a = new int[size];
 
@@ -83,7 +83,7 @@ public class Part_3 {
             System.out.println("No, array isn't increase!");
     }
 
-    public static void Solve_25(){
+    public static void solve_25(){
         int[] fib = new int[20];
         fib[0] = 1;
         fib[1] = 1;
@@ -97,7 +97,7 @@ public class Part_3 {
         System.out.println();
     }
 
-    public static void Solve_26(){
+    public static void solve_26(){
         final int size = 12;
         int[] a = new int[size];
         int max, maxI;
@@ -119,7 +119,7 @@ public class Part_3 {
         System.out.printf("Max value: %d, index: %d\n", max, maxI);
     }
 
-    public static void Solve_27(){
+    public static void solve_27(){
         final int size = 10;
         int[] a = new int[size];
         int[] b = new int[size];
@@ -150,7 +150,7 @@ public class Part_3 {
         System.out.printf("Count of integer numbers: %d\n", countInt);
     }
 
-    public static void Solve_28(){
+    public static void solve_28(){
         final int size = 11;
         int[] a = new int[size];
         int n_one = 0, zero = 0, p_one = 0, max;
@@ -177,7 +177,7 @@ public class Part_3 {
         }
     }
 
-    public static void Solve_29(){
+    public static void solve_29(){
         Scanner s = new Scanner(System.in);
         int size = -1, sum1 = 0, sum2 = 0;
 
@@ -204,7 +204,7 @@ public class Part_3 {
         System.out.printf("%s\n", message);
     }
 
-    public static void Solve_30(){
+    public static void solve_30(){
         final int size = 12;
         int[] a = new int[size];
         int[] neg = new int[size / 2], pos = new int[size / 2];

@@ -6,20 +6,20 @@ import java.util.Scanner;
 import static java.lang.StrictMath.*;
 
 public class Part_2 {
-    public static void Solve_11(){
+    public static void solve_11(){
         for (int a = 2; a < 10000; a = a * 2 - 1)
             System.out.print(a + " ");
         System.out.println();
     }
 
-    public static void Solve_12(){
+    public static void solve_12(){
         for (int a = -166; a < 100; a = a * 2 + 200)
             if (abs(a) >= 10 && abs(a) < 100)
                 System.out.print(a + " ");
         System.out.println();
     }
 
-    public static void Solve_13(){
+    public static void solve_13(){
         Scanner s = new Scanner(System.in);
         int n = 0;
 
@@ -36,7 +36,7 @@ public class Part_2 {
         System.out.println();
     }
 
-    public static void Solve_14(){
+    public static void solve_14(){
         Scanner s = new Scanner(System.in);
         int n = 0;
         boolean isPrimeNum = true;
@@ -75,7 +75,7 @@ public class Part_2 {
         }
     }
 
-    public static void Solve_15(){
+    public static void solve_15(){
         int[] fib = new int[11];
         fib[0] = 1;
         fib[1] = 1;
@@ -89,7 +89,7 @@ public class Part_2 {
         System.out.println();
     }
 
-    public static void Solve_16(){
+    public static void solve_16(){
         Scanner in = new Scanner(System.in);
 
         System.out.print("Enter number: ");
@@ -102,7 +102,7 @@ public class Part_2 {
         System.out.println("Sum = " + Arrays.stream(digs).sum());
     }
 
-    public static void Solve_17(char ... happy_ticket){
+    public static void solve_17(char ... happy_ticket){
         if (happy_ticket.length < 1000000){
             int[] digs = new int[happy_ticket.length];
 
@@ -117,7 +117,7 @@ public class Part_2 {
         }
     }
 
-    public static void Solve_18(){
+    public static void solve_18(){
         int amount = 0;
 
         System.out.println("Need to exclude:");
@@ -133,7 +133,7 @@ public class Part_2 {
         System.out.printf("Amount of exclude elements: %d\n", amount);
     }
 
-    public static void Solve_19(int n){
+    public static void solve_19(int n){
         if (n >= 5 && n <= 155){
             if (n > 25 && n < 100)
                 System.out.printf("Number %d is contains in (25,100)\n", n);
@@ -142,7 +142,7 @@ public class Part_2 {
         }
     }
 
-    public static void Solve_20(){
+    public static void solve_20(){
         int random = 100 + (int)(random() * 1000);
         int[] res = {random / 100, random / 10 % 10, random % 10};
 

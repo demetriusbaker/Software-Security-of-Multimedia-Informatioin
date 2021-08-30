@@ -1,7 +1,7 @@
 package Chapter34.Task44;
 
 public class Aerocarrier extends Warship{
-    private int countPlaces;
+    private final int countPlaces;
 
     public Aerocarrier(int warPower, int countPlaces){
         this.warPower = warPower;
@@ -9,12 +9,12 @@ public class Aerocarrier extends Warship{
     }
 
     @Override
-    public String SayWarInfo(){
+    public String sayWarInfo(){
         return "I am a ship, that can convey war airplanes!";
     }
 
     @Override
-    public String GetCharacteristics() {
+    public String getCharacteristics() {
         return "War power: " + warPower + "\n" +
                 "Count of places: " + countPlaces;
     }
