@@ -1,0 +1,698 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ce25b9f4-ef92-4acc-aa2b-d749cf626dd5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/Kurs_Java.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/abiturient_exam" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/car_shop" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/house_accomodation" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/patients_polyclinic" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/Part_1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/Part_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/Part_3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/Part_4.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/part_1.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/part_2.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/part_3.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter1/part_4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Abiturient/Abiturient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Abiturient/Exam.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Car/Car.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Car/Shop.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/House/Accomodation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/House/House.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Patient/Hospital.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Patient/Patient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Book.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Fraction.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/MultiSymPower.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/QuaEquation.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Storage.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Student/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Student/University.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Arithmetic/IArithmetic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Arithmetic/Matrixs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Arithmetic/SizeMismatchExceptionClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Arithmetic/Strings.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Arithmetic/Vectors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Norm/ComplexNumbers.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Norm/INorm.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Norm/Matrix.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Norm/Vector.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Square/Circle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Square/ISquare.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Square/Rectangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Square/RightTriangle.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Square/Trapezoid.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task41/Abirurient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task41/PartTimeStudent.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task41/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task42/Employee.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task42/Engineer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task42/Leader.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task43/Building.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task43/PublicBuilding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task43/Theater.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task44/Aerocarrier.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task44/Ship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task44/Warship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task45/Cargoship.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task45/IShip.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task45/Tanker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task46/Player.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task46/Technique.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task46/Videoplayer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task47/PublicTransport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task47/Tram.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter34/Task47/Transport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/ChapterTask/NumberStructure.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/ChapterTask/Person.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/ChapterTask/SortingClassX.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/ChapterTask/Student.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/Education/Education.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter5/Education/TaskWork.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/com/company/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/com/company/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/com/company/Main34.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/src/com/company/Main5.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Kurs_Java/students_bsuir" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Metodicheskoue_ukazanie.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_10/Lesson_10.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/Lesson_6.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_6/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_7/Lesson_7.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_7/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/Lesson_8.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@123772c4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@2c13da15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@512ddf17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@5c8da962.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@6a6824be.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/articleArticleSimple@77556fd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/delegation.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@123772c4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@2c13da15.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@512ddf17.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@5c8da962.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@6a6824be.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/descriptionArticleSimple@77556fd.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/ArticleLazy.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/Cars.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/DelegationMap.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/DelegationProperty.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/MyList.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_8/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/Lesson_9.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/src/genericRerstriction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/src/main.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/src/type.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/src/typeRestriction.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/Kotlin/Lesson_9/src/variance.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SPMI_Kotlin/Kurs_Java(K)/Kurs_Java(K).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SPMI_Kotlin/Metodicheskoe_ukazanie(K)/Metodicheskoe_ukazanie(K).iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/kotlinc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/libraries/KotlinJavaRuntime.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/SandBox.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../../Kotlin/SandBox/src/University.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/Chapter5Education.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/ChapterTask/NumberStructure.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/ChapterTask/Person.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/ChapterTask/SortingClassX.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/ChapterTask/Student$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/ChapterTask/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/CollectionMethods.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Containment.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Education.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Gen.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/GenThree.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/GenTwo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/GenericMethodDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/MyClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/MyGenClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Numbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/NumericFns.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/QueueClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/SizeOverFlowExceptionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/SizeUnderFlowExceptionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/Summation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/TaskWork.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/TwoGens.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/Education/ValuesClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/com/company/Main$1SortingList.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/out/production/Chapter5Education/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/ChapterTask/NumberStructure.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/ChapterTask/Person.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/ChapterTask/SortingClassX.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/ChapterTask/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/Education/Education.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/Education/TaskWork.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter5Education/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/Chapter_Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Part_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Part_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Part_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Part_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/part_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/part_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/part_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/out/production/Chapter_Tasks/com/company/part_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/Part_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/Part_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/Part_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/Part_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/part_1.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/part_2.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/part_3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_1/Chapter_Tasks/src/com/company/part_4.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/Chapter_Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/abiturient_exam" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/car_shop" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/house_accomodation" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Abiturient/Abiturient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Abiturient/Exam.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Car/Car.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Car/Shop.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/House/Accomodation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/House/House.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Patient/Hospital.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Patient/Patient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/Book.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/Fraction.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/MultiSymPower$InnerTool.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/MultiSymPower.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/QuaEquation.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/Storage.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Pivass/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Student/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/Student/University.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/out/production/Chapter_Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/patients_polyclinic" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Abiturient/Abiturient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Abiturient/Exam.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Car/Car.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Car/Shop.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/House/Accomodation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/House/House.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Patient/Hospital.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Patient/Patient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/Book.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/Fraction.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/MultiSymPower.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/QuaEquation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/Storage.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Pivass/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Student/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/Student/University.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_2/Chapter_Tasks/students_bsuir" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/.idea/uiDesigner.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/Chapter_Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Arithmetic/IArithmetic.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Arithmetic/Matrixs.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Arithmetic/SizeMismatchExceptionClass.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Arithmetic/Strings.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Arithmetic/Vectors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Norm/ComplexNumbers.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Norm/INorm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Norm/Matrix.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Norm/Vector.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Square/Circle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Square/ISquare.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Square/Rectangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Square/RightTriangle.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Square/Trapezoid.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task41/Abirurient.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task41/PartTimeStudent.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task41/Student.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task42/Employee.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task42/Engineer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task42/Leader.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task43/Building.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task43/PublicBuilding.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task43/Theater.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task44/Aerocarrier.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task44/Ship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task44/Warship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task45/Cargoship.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task45/IShip.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task45/Tanker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task46/Player.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task46/Technique.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task46/Videoplayer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task47/PublicTransport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task47/Tram.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/Task47/Transport.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/out/production/Chapter_3_and_4/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Arithmetic/IArithmetic.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Arithmetic/Matrixs.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Arithmetic/SizeMismatchExceptionClass.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Arithmetic/Strings.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Arithmetic/Vectors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Norm/ComplexNumbers.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Norm/INorm.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Norm/Matrix.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Norm/Vector.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Square/Circle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Square/ISquare.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Square/Rectangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Square/RightTriangle.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Square/Trapezoid.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task41/Abirurient.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task41/PartTimeStudent.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task41/Student.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task42/Employee.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task42/Engineer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task42/Leader.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task43/Building.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task43/PublicBuilding.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task43/Theater.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task44/Aerocarrier.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task44/Ship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task44/Warship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task45/Cargoship.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task45/IShip.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task45/Tanker.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task46/Player.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task46/Technique.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task46/Videoplayer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task47/PublicTransport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task47/Tram.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/Task47/Transport.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/Kurs_JAVA/Chapter_34/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/out/production/metodicheskoe_ukazanie_lab_1/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/out/production/metodicheskoe_ukazanie_lab_1/com/company/Task_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/out/production/metodicheskoe_ukazanie_lab_1/com/company/Task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/out/production/metodicheskoe_ukazanie_lab_1/com/company/Task_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/out/production/metodicheskoe_ukazanie_lab_1/com/company/Task_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/out/production/Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/out/production/Tasks/com/company/Task_1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/out/production/Tasks/com/company/Task_2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/out/production/Tasks/com/company/Task_3.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/out/production/Tasks/com/company/Task_4.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/src/com/company/Task_1.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/src/com/company/Task_2.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/src/com/company/Task_3.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 1/Tasks/src/com/company/Task_4.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/out/production/Task/com/company/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/out/production/Task/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/src/com/company/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 10/Task/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/out/production/Task/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/out/production/Task/com/company/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Task/src/com/company/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Tasks/.idea/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 2/Tasks/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/out/production/Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/out/production/Tasks/com/company/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 3/Tasks/src/com/company/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/out/production/Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/out/production/Tasks/com/company/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 4/Tasks/src/com/company/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/out/production/Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/out/production/Tasks/com/company/Task.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 5/Tasks/src/com/company/Task.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/Tasks.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/out/production/Tasks/com/company/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/out/production/Tasks/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/src/com/company/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 6/Tasks/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/out/production/variant 7/com/company/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/out/production/variant 7/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/src/com/company/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 7/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/out/production/Task/com/company/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/out/production/Task/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/src/com/company/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 8/Task/src/com/company/Main.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/aws.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/codeStyles/Project.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/codeStyles/codeStyleConfig.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/description.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/.idea/project-template.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/Task.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/out/production/Task/com/company/Class.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/out/production/Task/com/company/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/src/com/company/Class.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../POMI/metodicheskoe_ukazanie_lab_1/variant 9/Task/src/com/company/Main.java" beforeDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../.." />
+  </component>
+  <component name="ProjectId" id="1qty0UD15ZjDgqfaCGRE7WiCgRk" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="untitled104" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="company" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="ProjectViewState">
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant10" />
+      <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant9" />
+      <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant8" />
+      <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant7" />
+      <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant6" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (4)">
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variant8.Main" />
+      <module name="Metodicheskoue_ukazanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Variant8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variant9.Main" />
+      <module name="Metodicheskoue_ukazanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Variant9.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (3)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variant10.Main" />
+      <module name="Metodicheskoue_ukazanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Variant10.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (4)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variant1.Main" />
+      <module name="Metodicheskoue_ukazanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Variant1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Variant7.Main" />
+      <module name="Metodicheskoue_ukazanie" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Variant7.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (4)" />
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.Main (2)" />
+        <item itemvalue="Application.Main (3)" />
+        <item itemvalue="Application.Main" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ce25b9f4-ef92-4acc-aa2b-d749cf626dd5" name="Default Changelist" comment="" />
+      <created>1617912959578</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1617912959578</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+</project>
