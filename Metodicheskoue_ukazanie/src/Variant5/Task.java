@@ -8,28 +8,28 @@ public class Task {
         return (y1 - y4 == y2 - y3) && (x2 - x1 == x3 - x4);
     }
 
-    public static void Get_Function(float a, float b, float h){
+    public static void getFunction(float a, float b, float h){
         for (float x = a; x <= b; x += h){
             float res = (float)(7 * pow(sin(x), 2) - 0.5 * cos(x));
             System.out.printf("X: %f, F(X): %f (%.3f);\n", x, res, res);
         }
     }
 
-    public static void Print_MatrixWMN(int[][] A, int[][] B, int[][] C){
-        int a = MaxABS(A);
-        int b = MaxABS(B);
-        int c = MaxABS(C);
+    public static void printMatrixWMN(int[][] A, int[][] B, int[][] C){
+        int a = maxABS(A);
+        int b = maxABS(B);
+        int c = maxABS(C);
         int max = max(max(a, b), c);
 
         if (a == max)
-            Print(A, 1);
+            print(A, 1);
         if (b == max)
-            Print(B, 1);
+            print(B, 1);
         if (c == max)
-            Print(C, 1);
+            print(C, 1);
     }
 
-    private static int MaxABS(int[][] matrix){
+    private static int maxABS(int[][] matrix){
         int max_abs = matrix[0][0];
         for (int[] ints : matrix)
             for (int anInt : ints)
@@ -39,7 +39,7 @@ public class Task {
         return max_abs;
     }
 
-    private static void Print(int[][] matrix, int indentionCount){
+    private static void print(int[][] matrix, int indentionCount){
         StringBuilder indent = new StringBuilder();
         indent.append(" ".repeat(Math.max(0, indentionCount)));
 
@@ -50,13 +50,13 @@ public class Task {
         }
     }
 
-    public static void Create_And_Print_Matrix_N(int n){
+    public static void createAndPrintMatrixN(int n){
         int[][] matrix = new int[n][n];
 
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 matrix[i][j] = (int)pow(j + 1, i);
 
-        Print(matrix, 10);
+        print(matrix, 10);
     }
 }

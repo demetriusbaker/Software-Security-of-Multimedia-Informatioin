@@ -12,7 +12,7 @@ public class Main {
 
         System.out.printf("%d task\n%s\n", step++, s);
 
-        Task.Get_Function(0, 5.5f, 0.5f);
+        Task.getFunction(0, 5.5f, 0.5f);
 
         System.out.printf("%d task\n%s\n", step++, s);
 
@@ -34,10 +34,10 @@ public class Main {
                 {1,3},
         };
 
-        Task.Print_MatrixWMN(A, B, C);
+        Task.printMatrixWMN(A, B, C);
 
         System.out.printf("%d task\n%s\n", step++, s);
 
-        Task.Create_And_Print_Matrix_N(6);
+        Task.createAndPrintMatrixN(6);
     }
 }

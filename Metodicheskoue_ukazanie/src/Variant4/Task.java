@@ -4,7 +4,7 @@ import static java.lang.StrictMath.cos;
 import static java.lang.StrictMath.max;
 
 public class Task {
-    public static int get_Res_3_Num(int a, int b, int c, int d){
+    public static int getRes3Num(int a, int b, int c, int d){
         return d == a ? a : d == b ? b : d == c ? c :
                 max(d - a, max(d - b, d - c));
     }
@@ -16,7 +16,7 @@ public class Task {
         }
     }
 
-    public static int[] create_Array_With_KN(int k, int n){
+    public static int[] createArrayWithKN(int k, int n){
         int[] arr = new int[k + 1];
         int c = 0;
         for (int i = 1; i < n; i++)

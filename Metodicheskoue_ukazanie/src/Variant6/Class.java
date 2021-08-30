@@ -3,8 +3,8 @@ package Variant6;
 import static java.lang.StrictMath.*;
 
 public class Class {
-    public static void Find_ABC(double x1, double y1, double x2, double y2,
-                                  double x3, double y3){
+    public static void findABC(double x1, double y1, double x2, double y2,
+                               double x3, double y3){
         if (x3 / x2 == y3 / y2 && x2 / x1 == y2 / y1)
             System.out.println("Yes, they in one line!");
         else{
@@ -17,21 +17,21 @@ public class Class {
         }
     }
 
-    public static void Get_Function(float a, float b, float h){
+    public static void getFunction(float a, float b, float h){
         for (float x = a; x <= b; x += h){
             float res = (float)(pow(sin(x), 2) - cos(2 * x));
             System.out.printf("X: %f, F(X): %f (%.3f);\n", x, res, res);
         }
     }
 
-    public static void Find_Friend_Numbers(int n){
+    public static void findFriendNumbers(int n){
         for (int i = 0; i < n; i++)
             for (int j = i + 1; j < n; j++)
-                if (SFN(i) == j && SFN(j) == i)
+                if (sfn(i) == j && sfn(j) == i)
                     System.out.printf("i: %d j: %d\n", i, j);
     }
 
-    private static int SFN(int n){
+    private static int sfn(int n){
         int result = 1;
 
         for (int i = 2; i < n; i++)
@@ -40,17 +40,17 @@ public class Class {
         return result;
     }
 
-    public static void Create_And_Print_Matrix_N(int n){
+    public static void createAndPrintMatrixN(int n){
         int[][] matrix = new int[n][n];
 
         for (int i = 0; i < n; i++)
             for (int j = 0; j < n; j++)
                 matrix[i][j] = (int)pow(j + 1, i + 1);
 
-        Print(matrix, 10);
+        print(matrix, 10);
     }
 
-    private static void Print(int[][] matrix, int indentionCount){
+    private static void print(int[][] matrix, int indentionCount){
         StringBuilder indent = new StringBuilder();
         indent.append(" ".repeat(Math.max(0, indentionCount)));
 

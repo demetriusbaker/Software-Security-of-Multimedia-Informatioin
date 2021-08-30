@@ -1,7 +1,7 @@
 package Variant1;
 
 public class Task_3 {
-    public static int[] Split(int num){
+    public static int[] split(int num){
         String s = String.valueOf(num);
         char[] c = s.toCharArray();
         int[] dig = new int[c.length];

@@ -8,11 +8,11 @@ public class Main {
         int step = 1;
         System.out.printf("%d laba\n%s\n", step++, s);
 
-        System.out.println(Task.get_Res_3_Num(1,2,3,1)); // 1
-        System.out.println(Task.get_Res_3_Num(1,2,3,2)); // 2
-        System.out.println(Task.get_Res_3_Num(2,3,4,4)); // 4
-        System.out.println(Task.get_Res_3_Num(10,8,4,5)); // 1
-        System.out.println(Task.get_Res_3_Num(10,14,12,16)); // 6
+        System.out.println(Task.getRes3Num(1,2,3,1)); // 1
+        System.out.println(Task.getRes3Num(1,2,3,2)); // 2
+        System.out.println(Task.getRes3Num(2,3,4,4)); // 4
+        System.out.println(Task.getRes3Num(10,8,4,5)); // 1
+        System.out.println(Task.getRes3Num(10,14,12,16)); // 6
 
         System.out.printf("%d laba\n%s\n", step++, s);
 
@@ -20,7 +20,7 @@ public class Main {
 
         System.out.printf("%d laba\n%s\n", step++, s);
 
-        int[] arr = Task.create_Array_With_KN(10,100);
+        int[] arr = Task.createArrayWithKN(10,100);
         for (var a: arr)
             System.out.print(a + " ");
         System.out.println();

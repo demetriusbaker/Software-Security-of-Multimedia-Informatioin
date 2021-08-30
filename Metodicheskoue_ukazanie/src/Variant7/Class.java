@@ -1,7 +1,7 @@
 package Variant7;
 
 public class Class {
-    public static void Method1(float a, float b, float c){
+    public static void method1(float a, float b, float c){
         if (a > b && b > c){
             a *= 2;
             b *= 2;
@@ -19,20 +19,20 @@ public class Class {
         }
     }
 
-    public static void Method2(float a, float b, float h){
+    public static void method2(float a, float b, float h){
         for (float x = a; x <= b; x += h){
             float res = (float)(0.5 * 1 / Math.tan(x / 4) + 4);
             System.out.printf("X: %f, F(X): %f (%.3f);\n", x, res, res);
         }
     }
 
-    public static void Method3(int n){
+    public static void method3(int n){
         for (int i = 0; i < n - 2; i++)
-            if (IsSimpleAndTwins(n + i))
+            if (isSimpleAndTwins(n + i))
                 System.out.println(n + i + " " + (n + i + 2));
     }
 
-    private static boolean IsSimpleAndTwins(int n){
+    private static boolean isSimpleAndTwins(int n){
         if (n % 2 == 0)
             return false;
 
@@ -43,7 +43,7 @@ public class Class {
         return true;
     }
 
-    public static void Method4(int n){
+    public static void method4(int n){
         int k = 1, j = 0, s = 1;
         int[][] matrix = new int[n][n];
 

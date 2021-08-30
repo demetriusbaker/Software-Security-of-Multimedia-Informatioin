@@ -5,7 +5,7 @@ import java.util.Arrays;
 import static java.lang.StrictMath.*;
 
 public class Task {
-    public static double Find_Angle_C(double a, double b, double c) {
+    public static double findAngleC(double a, double b, double c) {
         double[] tri = {a,b,c};
         Arrays.sort(tri);
 
@@ -16,20 +16,20 @@ public class Task {
                     - pow(tri[2], 2)) / (2 * tri[0] * tri[1]));
     }
 
-    public static void Function(double a, double b, double h){
+    public static void function(double a, double b, double h){
         for (double x = a; x <= b; x += h){
             double result = sin(x) + 0.5 * cos(x);
             System.out.println("x = " + x + ", F(x) = " + result);
         }
     }
 
-    public static long MoreDigits(long a, long b){
-        if (GetCounts(a) == GetCounts(b))
-            Show_Equals(a,b);
-        return GetCounts(a) > GetCounts(b) ? a : b;
+    public static long moreDigits(long a, long b){
+        if (getCounts(a) == getCounts(b))
+            showEquals(a,b);
+        return getCounts(a) > getCounts(b) ? a : b;
     }
 
-    private static long GetCounts(long number) {
+    private static long getCounts(long number) {
         int count = number == 0 ? 1 : 0;
 
         while (number != 0) {
@@ -40,20 +40,20 @@ public class Task {
         return count;
     }
 
-    private static void Show_Equals(long a, long b){
+    private static void showEquals(long a, long b){
         System.out.println("Oба! a и b: " + a + " " + b);
     }
 
-    public static int[][] GenerateArray(int n)
+    public static int[][] generateArray(int n)
     {
         if(n%2!=0)
-            return OddMagicSquare(n);
+            return oddMagicSquare(n);
         else
-            return EvenMatrixSquare(n);
+            return evenMatrixSquare(n);
     }
 
-    private static int[][] EvenMatrixSquare(int n){
-        int[][] matrix = StandardMatrixFilling(n);
+    private static int[][] evenMatrixSquare(int n){
+        int[][] matrix = standardMatrixFilling(n);
         // Перестановка элементов главной диагонали
         int count = 0;
 
@@ -82,7 +82,7 @@ public class Task {
         return matrix;
     }
 
-    private static int[][] OddMagicSquare(int n) {
+    private static int[][] oddMagicSquare(int n) {
         int[][] matrix = new int[n][n];
         int x = n/2;
         int y = matrix.length-1;
@@ -110,7 +110,7 @@ public class Task {
         return matrix;
     }
 
-    private static int[][] StandardMatrixFilling(int n){
+    private static int[][] standardMatrixFilling(int n){
         int[][] matrix = new int[n][n];
         int count = 1;
 
