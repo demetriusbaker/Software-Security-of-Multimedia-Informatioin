@@ -87,11 +87,15 @@ public class Part_1 {
 
         System.out.print("Enter 4-numbers password: ");
 
-        password = s.nextInt();
-        while (password != 1179){
-            System.out.println("Error password!");
+        do {
+            while (!s.hasNextInt())
+                s.next();
             password = s.nextInt();
-        }
+            if (password == 1179)
+                break;
+            System.out.println("Error password!");
+        } while (true);
+
 
         System.out.println("You're welcome!");
     }
@@ -117,15 +121,16 @@ public class Part_1 {
 
         System.out.println("Task: guess number from 1 to 10");
 
-        unknown = (int)(min + random() * (max + 1));
+        unknown = (int)(min + random() * (max + 1 - min));
 
         do{
             tryCount++;
 
             do{
                 System.out.print("Enter number from 1 to 10: ");
-                if (s.hasNextInt())
-                    userEnter = s.nextInt();
+                while (!s.hasNextInt())
+                    s.next();
+                userEnter = s.nextInt();
             } while (userEnter < min || userEnter > max);
 
             if (userEnter > unknown)
@@ -135,7 +140,7 @@ public class Part_1 {
             else
                 System.out.println("You're guessed!");
 
-        } while(userEnter != unknown);
+        } while (userEnter != unknown);
 
         System.out.printf("Amount of try: %d\n", tryCount);
     }

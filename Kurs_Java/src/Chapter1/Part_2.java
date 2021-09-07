@@ -21,12 +21,13 @@ public class Part_2 {
 
     public static void solve_13(){
         Scanner s = new Scanner(System.in);
-        int n = 0;
+        int n;
 
-        do{
+        do {
             System.out.print("Enter natural number: ");
-            if (s.hasNextInt())
-                n = s.nextInt();
+            while (!s.hasNextInt())
+                s.next();
+            n = s.nextInt();
         } while (n <= 0);
 
         System.out.printf("Dividers of %d: ", n);
@@ -38,13 +39,14 @@ public class Part_2 {
 
     public static void solve_14(){
         Scanner s = new Scanner(System.in);
-        int n = 0;
+        int n;
         boolean isPrimeNum = true;
 
         do{
             System.out.print("Enter natural number: ");
-            if (s.hasNextInt())
-                n = s.nextInt();
+            while (!s.hasNextInt())
+                s.next();
+            n = s.nextInt();
         } while (n <= 0);
 
         for (int i = 2; i < n; i++)

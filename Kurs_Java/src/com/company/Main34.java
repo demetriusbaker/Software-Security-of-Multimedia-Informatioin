@@ -76,30 +76,42 @@ public class Main34 {
                     m.createMatrix(false);
                     m.printMatrix();
                     m.printMatrixElement(0, 1);
+
                     System.out.println("===");
+
                     m.divideMatrix(2);
                     m.printMatrix();
+
                     System.out.println("===");
+
                     Matrix m1 = new Matrix();
                     m1.createMatrix(false);
                     m1.printMatrix();
+
                     System.out.println("===");
+
                     m.compare(m1.getMatrix());
                     m.add(m1.getMatrix());
                     m.printMatrix();
+
+                    System.out.println("===");
+
+                    Matrix testMatrix = new Matrix();
+                    testMatrix.createMatrix(true);
+                    testMatrix.printMatrix();
                 }
                 case "2" -> {
-                    Strings obj1 = new Strings();
-                    obj1.printSymbols();
-                    obj1.outputValueByIndex(5);
+                    Strings stringObject1 = new Strings();
+                    stringObject1.printSymbols();
+                    stringObject1.outputValueByIndex(5);
                     System.out.println("===");
-                    Strings obj2 = new Strings();
-                    obj2.printSymbols();
-                    obj2.outputValueByIndex(3);
+                    Strings stringObject2 = new Strings();
+                    stringObject2.printSymbols();
+                    stringObject2.outputValueByIndex(3);
                     System.out.println("===");
-                    obj1.compare(obj2.getC());
-                    obj1.add(obj2.getC());
-                    obj1.printSymbols();
+                    stringObject1.compare(stringObject2.getC());
+                    stringObject1.add(stringObject2.getC());
+                    stringObject1.printSymbols();
                 }
                 case "3" -> {
                     Vectors vector1 = new Vectors();

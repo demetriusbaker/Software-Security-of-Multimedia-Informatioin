@@ -2,16 +2,26 @@ package Chapter34.Arithmetic;
 
 import java.util.Scanner;
 
-public class Matrix implements IArithmetic{
+public class Matrix implements IArithmetic {
     private double[][] matrix;
 
     public void createMatrix(boolean isRandom){
         Scanner s = new Scanner(System.in);
+        int n, m;
 
         System.out.println("Введите длину матрицы");
-        int n = s.nextInt();
+        do {
+            while (!s.hasNextInt())
+                s.next();
+            n = s.nextInt();
+        } while (n <= 0);
+
         System.out.println("Введите ширину матрицы");
-        int m = s.nextInt();
+        do {
+            while (!s.hasNextInt())
+                s.next();
+            m = s.nextInt();
+        } while (m <= 0);
 
         this.matrix = new double[m][n];
 
@@ -24,6 +34,9 @@ public class Matrix implements IArithmetic{
                 for (int j = 0; j < matrix[i].length; j++){
                     System.out.print("Введите элемент массива " + i + " строки"
                     + " и " + j + " столбца: ");
+
+                    while (!s.hasNextInt())
+                        s.next();
                     matrix[i][j] = s.nextInt();
                 }
         }

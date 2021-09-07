@@ -179,12 +179,13 @@ public class Part_3 {
 
     public static void solve_29(){
         Scanner s = new Scanner(System.in);
-        int size = -1, sum1 = 0, sum2 = 0;
+        int size, sum1 = 0, sum2 = 0;
 
-        do{
+        do {
             System.out.print("Enter even positive number: ");
-            if (s.hasNextInt())
-                size = s.nextInt();
+            while (!s.hasNextInt())
+                s.next();
+            size = s.nextInt();
         } while (size <= 0 || size % 2 != 0);
 
         int[] a = new int[size];

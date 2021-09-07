@@ -5,13 +5,13 @@ import Chapter1.*;
 import java.util.Scanner;
 
 public class Main1 {
-    private static final int[][] matr1 = {
+    private static final int[][] matrix1 = {
             {2,9,4},
             {7,5,3},
             {6,1,8},
     };
 
-    private static final int[][] matr2 = {
+    private static final int[][] matrix2 = {
             {1,2,3},
             {4,5,6},
             {7,8,9},
@@ -140,8 +140,8 @@ public class Main1 {
                 System.out.printf("%d\t-------------\n", a++);
                 Part_4.solve_37(4, 5);
                 System.out.printf("%d\t-------------\n", a++);
-                Part_4.solve_38(matr1);
-                Part_4.solve_38(matr2);
+                Part_4.solve_38(matrix1);
+                Part_4.solve_38(matrix2);
                 System.out.printf("%d\t-------------\n", a++);
                 Part_4.solve_39(4, 4);
                 System.out.printf("%d\t-------------\n", a++);

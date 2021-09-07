@@ -23,6 +23,12 @@ public class Circle {
         this.y = y;
     }
 
+    public Circle(Circle otherCircle){
+        this.radius = otherCircle.radius;
+        this.x = otherCircle.x;
+        this.y = otherCircle.y;
+    }
+
     public String getCharacteristics(){
         return "Radius: " + radius + "; \n" +
         "X: " + x + "; \n" + "Y: " + y + ";" + "\n";

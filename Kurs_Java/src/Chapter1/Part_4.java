@@ -9,12 +9,13 @@ import static java.lang.StrictMath.random;
 public class Part_4 {
     public static void solve_31(){
         Scanner s = new Scanner(System.in);
-        int n = 0;
+        int n;
 
         do{
             System.out.print("Enter natural number more than 2: ");
-            if (s.hasNextInt())
-                n = s.nextInt();
+            while (!s.hasNextInt())
+                s.next();
+            n = s.nextInt();
         } while (n < 3);
 
         int[] arr = new int[n];
@@ -171,8 +172,9 @@ public class Part_4 {
         int userRow = 0;
         do{
             System.out.printf("Enter № of row (from 1 to %d): ", n);
-            if (s.hasNextInt())
-                userRow = s.nextInt() - 1;
+            while (!s.hasNextInt())
+                s.next();
+            userRow = s.nextInt() - 1;
         } while (userRow < 0 || userRow >= n);
 
         for (int i = 0; i < n; i++){

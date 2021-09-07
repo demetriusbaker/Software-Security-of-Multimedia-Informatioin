@@ -1,47 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ce25b9f4-ef92-4acc-aa2b-d749cf626dd5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../Kurs_Java/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs_Java/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs_Java/out/production/Kurs_Java/Chapter2/Pivass/Fraction.class" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs_Java/out/production/Kurs_Java/Chapter2/Pivass/Fraction.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Fraction.java" beforeDir="false" afterPath="$PROJECT_DIR$/../Kurs_Java/src/Chapter2/Pivass/Fraction.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_3.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant1/Task_4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant2/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant2/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant2/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant2/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant3/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant3/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant3/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant3/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant4/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant4/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant4/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant4/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant5/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant5/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant5/Task.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant5/Task.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant1/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant1/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant1/Task_1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant1/Task_1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant1/Task_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant1/Task_2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant1/Task_3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant1/Task_3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant1/Task_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant1/Task_4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant10/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant10/Class.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant10/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant10/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant10/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant10/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant6/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant6/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant6/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant6/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant7/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant7/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant7/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant7/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant8/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant8/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant8/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant8/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant9/Class.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant9/Class.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant9/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Metodicheskoue_ukazanie/Variant9/Main.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Variant10/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant10/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant2/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant2/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant2/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant2/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant3/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant3/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant3/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant3/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant4/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant4/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant4/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant4/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant5/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant5/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant5/Task.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant5/Task.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant6/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant6/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant6/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant6/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant7/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant7/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant7/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant7/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant8/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant8/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant8/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant8/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant9/Class.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant9/Class.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Variant9/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Variant9/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -134,7 +112,7 @@
       <recent name="E:\Android_Development\Java\SPMI\Kurs_Java\src\Variant6" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main (5)">
+  <component name="RunManager" selected="Application.Main (3)">
     <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Variant8.Main" />
       <module name="Metodicheskoue_ukazanie" />
@@ -200,24 +178,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Main (3)" />
         <item itemvalue="Application.Main (5)" />
         <item itemvalue="Application.Main (4)" />
         <item itemvalue="Application.Main (1)" />
         <item itemvalue="Application.Main (2)" />
-        <item itemvalue="Application.Main (3)" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +197,7 @@
       <option name="presentableId" value="Default" />
       <updated>1617912959578</updated>
       <workItem from="1630327031806" duration="466000" />
+      <workItem from="1630494223632" duration="5000" />
     </task>
     <servers />
   </component>

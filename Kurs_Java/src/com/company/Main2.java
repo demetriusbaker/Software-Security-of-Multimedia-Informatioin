@@ -58,6 +58,13 @@ public class Main2 {
     private static void task1() throws IOException {
         // чтение файла с бд студентами
         File file = new File("students_bsuir");
+
+        // проверка на наличие файла (при отсутствии просто не откроется и возвратит на основное меню)
+        if (!file.exists()){
+            System.out.println("Файл не найден!");
+            return;
+        }
+
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
 
@@ -81,30 +88,35 @@ public class Main2 {
         // заполнение списка данными студентов
         int i = 0;
         while (line != null) {
-            String[] split = line.split(" ");
+            try {
+                String[] split = line.split(" ");
 
-            int id = Integer.parseInt(split[0]);
-            String name = split[1];
-            String patronymic = split[2];
-            String surname = split[3];
-            int year = Integer.parseInt(split[4]);
-            int month = Integer.parseInt(split[5]);
-            int day = Integer.parseInt(split[6]);
-            String address = split[7];
-            String phone = split[8];
-            String faculty = split[9];
-            int course = Integer.parseInt(split[10]);
-            String group = split[11];
+                int id = Integer.parseInt(split[0]);
+                String name = split[1];
+                String patronymic = split[2];
+                String surname = split[3];
+                int year = Integer.parseInt(split[4]);
+                int month = Integer.parseInt(split[5]);
+                int day = Integer.parseInt(split[6]);
+                String address = split[7];
+                String phone = split[8];
+                String faculty = split[9];
+                int course = Integer.parseInt(split[10]);
+                String group = split[11];
 
-            stud[i] = new Student(id, surname, name, patronymic,
-                    new GregorianCalendar(year, month, day),
-                    address, phone, faculty, course, group);
+                stud[i] = new Student(id, surname, name, patronymic,
+                        new GregorianCalendar(year, month, day),
+                        address, phone, faculty, course, group);
 
-            BSUIR.addStudent(stud[i]);
+                BSUIR.addStudent(stud[i]);
 
-            // также чтение файла построчно после каждой итерации
-            i++;
-            line = reader.readLine();
+                // также чтение файла построчно после каждой итерации
+                i++;
+                line = reader.readLine();
+            } catch (Exception e) {
+                System.out.println("Файл не удалось загрузить! Проверьте заполнение файла!!");
+                return;
+            }
         }
 
         // критерии отбора по списку
@@ -153,14 +165,22 @@ public class Main2 {
                             }
                             case "2" -> {
                                 System.out.print("Введите курс: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 course = s.nextInt();
                             }
                             case "3" -> {
                                 System.out.print("Введите год рождения: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 int year = s.nextInt();
                                 System.out.print("Введите месяц рождения: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 int month = s.nextInt();
                                 System.out.print("Введите день (месяца) рождения: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 int day_of_month = s.nextInt();
                                 birthday = new GregorianCalendar(year, month, day_of_month);
                             }
@@ -204,6 +224,12 @@ public class Main2 {
 
     private static void task2() throws IOException {
         File file = new File("patients_polyclinic");
+
+        if (!file.exists()){
+            System.out.println("Файл не найден!");
+            return;
+        }
+
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
 
@@ -222,24 +248,29 @@ public class Main2 {
 
         int i = 0;
         while (line != null) {
-            String[] split = line.split(" ");
+            try {
+                String[] split = line.split(" ");
 
-            int id = Integer.parseInt(split[0]);
-            String name = split[1];
-            String surname = split[2];
-            String patronymic = split[3];
-            String address = split[4];
-            String phone = split[5];
-            int cardNumber = Integer.parseInt(split[6]);
-            String diagnoses = split[7];
+                int id = Integer.parseInt(split[0]);
+                String name = split[1];
+                String surname = split[2];
+                String patronymic = split[3];
+                String address = split[4];
+                String phone = split[5];
+                int cardNumber = Integer.parseInt(split[6]);
+                String diagnoses = split[7];
 
-            pat[i] = new Patient(id, name, surname, patronymic,
-                    address, phone, cardNumber, diagnoses);
+                pat[i] = new Patient(id, name, surname, patronymic,
+                        address, phone, cardNumber, diagnoses);
 
-            polyclinic.addPatients(pat[i]);
+                polyclinic.addPatients(pat[i]);
 
-            i++;
-            line = reader.readLine();
+                i++;
+                line = reader.readLine();
+            } catch (Exception e) {
+                System.out.println("Файл не удалось загрузить! Проверьте заполнение файла!!");
+                return;
+            }
         }
 
         String diagnoses = "Здоров";
@@ -281,8 +312,12 @@ public class Main2 {
                             case "2" -> {
                                 System.out.println("Введите нижний и верхний диапазон: ");
                                 System.out.print("Min: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 min = s.nextInt();
                                 System.out.print("Max: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 max = s.nextInt();
                             }
                         }
@@ -310,6 +345,12 @@ public class Main2 {
 
     private static void task3() throws IOException {
         File file = new File("abiturient_exam");
+
+        if (!file.exists()){
+            System.out.println("Файл не найден!");
+            return;
+        }
+
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
 
@@ -328,27 +369,32 @@ public class Main2 {
 
         int i = 0;
         while (line != null) {
-            String[] split = line.split(" ");
+            try {
+                String[] split = line.split(" ");
 
-            int id = Integer.parseInt(split[0]);
-            String name = split[1];
-            String surname = split[2];
-            String patronymic = split[3];
-            String address = split[4];
-            String phone = split[5];
-            int[] marks = {
-                    Integer.parseInt(split[6]),
-                    Integer.parseInt(split[7]),
-                    Integer.parseInt(split[8]),
-                    Integer.parseInt(split[9]),
-                    Integer.parseInt(split[10])
-            };
+                int id = Integer.parseInt(split[0]);
+                String name = split[1];
+                String surname = split[2];
+                String patronymic = split[3];
+                String address = split[4];
+                String phone = split[5];
+                int[] marks = {
+                        Integer.parseInt(split[6]),
+                        Integer.parseInt(split[7]),
+                        Integer.parseInt(split[8]),
+                        Integer.parseInt(split[9]),
+                        Integer.parseInt(split[10])
+                };
 
-            enrollees[i] = new Enrollee(id, name, surname, patronymic, address, phone, marks);
-            exam.addEnrollee(enrollees[i]);
+                enrollees[i] = new Enrollee(id, name, surname, patronymic, address, phone, marks);
+                exam.addEnrollee(enrollees[i]);
 
-            i++;
-            line = reader.readLine();
+                i++;
+                line = reader.readLine();
+            } catch (Exception e) {
+                System.out.println("Файл не удалось загрузить! Проверьте заполнение файла!!");
+                return;
+            }
         }
 
         int minMark = 4;
@@ -388,14 +434,20 @@ public class Main2 {
                             case "0" -> isInCycle = false;
                             case "1" -> {
                                 System.out.print("Введите неудовлетворительную оценку: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 minMark = s.nextInt();
                             }
                             case "2" -> {
                                 System.out.println("Введите cредний балл: ");
+                                while (!s.hasNextFloat())
+                                    s.next();
                                 averageMark = s.nextFloat();
                             }
                             case "3" -> {
                                 System.out.println("Введите количество ТОП: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 countBestAbitur = s.nextInt();
                             }
                         }
@@ -428,6 +480,12 @@ public class Main2 {
 
     private static void task4() throws IOException {
         File file = new File("house_accomodation");
+
+        if (!file.exists()){
+            System.out.println("Файл не найден!");
+            return;
+        }
+
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
 
@@ -446,22 +504,27 @@ public class Main2 {
 
         int i = 0;
         while (line != null) {
-            String[] split = line.split(" ");
+            try {
+                String[] split = line.split(" ");
 
-            int id = Integer.parseInt(split[0]);
-            int number = Integer.parseInt(split[1]);
-            float square = Float.parseFloat(split[2]);
-            int floor = Integer.parseInt(split[3]);
-            int rooms = Integer.parseInt(split[4]);
-            String street = split[5];
-            String type = split[6];
-            int lifetime = Integer.parseInt(split[7]);
+                int id = Integer.parseInt(split[0]);
+                int number = Integer.parseInt(split[1]);
+                float square = Float.parseFloat(split[2]);
+                int floor = Integer.parseInt(split[3]);
+                int rooms = Integer.parseInt(split[4]);
+                String street = split[5];
+                String type = split[6];
+                int lifetime = Integer.parseInt(split[7]);
 
-            houses[i] = new House(id, number, square, floor, rooms, street, type, lifetime);
-            accomodation.addHouse(houses[i]);
+                houses[i] = new House(id, number, square, floor, rooms, street, type, lifetime);
+                accomodation.addHouse(houses[i]);
 
-            i++;
-            line = reader.readLine();
+                i++;
+                line = reader.readLine();
+            } catch (Exception e) {
+                System.out.println("Файл не удалось загрузить! Проверьте заполнение файла!!");
+                return;
+            }
         }
 
         int rooms = 3, minF = 4, maxF = 8;
@@ -500,16 +563,24 @@ public class Main2 {
                             case "0" -> isInCycle = false;
                             case "1" -> {
                                 System.out.print("Введите кол-во комнат: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 rooms = s.nextInt();
                             }
                             case "2" -> {
                                 System.out.println("Введите нижний этаж: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 minF = s.nextInt();
                                 System.out.println("Введите верхний этаж: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 maxF = s.nextInt();
                             }
                             case "3" -> {
                                 System.out.println("Введите площадь: ");
+                                while (!s.hasNextFloat())
+                                    s.next();
                                 square = s.nextFloat();
                             }
                         }
@@ -542,6 +613,12 @@ public class Main2 {
 
     private static void task5() throws IOException {
         File file = new File("car_shop");
+
+        if (!file.exists()){
+            System.out.println("Файл не найден!");
+            return;
+        }
+
         FileReader fr = new FileReader(file);
         BufferedReader reader = new BufferedReader(fr);
 
@@ -560,21 +637,26 @@ public class Main2 {
 
         int i = 0;
         while (line != null) {
-            String[] split = line.split(" ");
+            try {
+                String[] split = line.split(" ");
 
-            int id = Integer.parseInt(split[0]);
-            String brand = split[1];
-            String model = split[2];
-            int year = Integer.parseInt(split[3]);
-            String color = split[4];
-            float price = Float.parseFloat(split[5]);
-            String regNumber = split[6];
+                int id = Integer.parseInt(split[0]);
+                String brand = split[1];
+                String model = split[2];
+                int year = Integer.parseInt(split[3]);
+                String color = split[4];
+                float price = Float.parseFloat(split[5]);
+                String regNumber = split[6];
 
-            car[i] = new Car(id, brand, model, year, color, price, regNumber);
-            shop.addCar(car[i]);
+                car[i] = new Car(id, brand, model, year, color, price, regNumber);
+                shop.addCar(car[i]);
 
-            i++;
-            line = reader.readLine();
+                i++;
+                line = reader.readLine();
+            } catch (Exception e) {
+                System.out.println("Файл не удалось загрузить! Проверьте заполнение файла!!");
+                return;
+            }
         }
 
         String brand = "BMW";
@@ -618,10 +700,14 @@ public class Main2 {
                             }
                             case "2" -> {
                                 System.out.println("Введите год: ");
+                                while (!s.hasNextInt())
+                                    s.next();
                                 year = s.nextInt();
                             }
                             case "3" -> {
                                 System.out.println("Введите цену: ");
+                                while (!s.hasNextFloat())
+                                    s.next();
                                 price = s.nextFloat();
                             }
                         }
@@ -706,18 +792,22 @@ public class Main2 {
     }
 
     private static void realiseCircle(Circle[] c, int i) {
-        Print(c[i].getCharacteristics());
-        Print("Square: " + c[i].getSquare());
-        Print("Length: " + c[i].getLengthCircle());
+        Circle[] circles = new Circle[c.length];
+        for (int index = 0; index < c.length; index++)
+            circles[index] = new Circle(c[index]);
 
-        c[i].changeXAndY(2.5, 2.5);
-        c[i].changeRadius(10);
+        Print(circles[i].getCharacteristics());
+        Print("Square: " + circles[i].getSquare());
+        Print("Length: " + circles[i].getLengthCircle());
+
+        circles[i].changeXAndY(2.5, 2.5);
+        circles[i].changeRadius(10);
 
         System.out.println("--------------------");
 
-        Print(c[i].getCharacteristics());
-        Print("Square: " + c[i].getSquare());
-        Print("Length: " + c[i].getLengthCircle());
+        Print(circles[i].getCharacteristics());
+        Print("Square: " + circles[i].getSquare());
+        Print("Length: " + circles[i].getLengthCircle());
 
         System.out.println("++++++++++++++++++++");
     }
@@ -758,15 +848,19 @@ public class Main2 {
     }
 
     private static void realiseStorage(Storage[] s, int i) {
-        Print(s[i].getInfo());
-        Print(s[i].comparePrice(10.5f));
+        Storage[] storages = new Storage[s.length];
+        for (int index = 0; index < s.length; index++)
+            storages[index] = new Storage(s[index]);
 
-        s[i].changeCountProduct(50);
-        s[i].changePrice(5.2f);
+        Print(storages[i].getInfo());
+        Print(storages[i].comparePrice(10.5f));
+
+        storages[i].changeCountProduct(50);
+        storages[i].changePrice(5.2f);
 
         System.out.println("--------------------");
 
-        Print(s[i].getInfo());
+        Print(storages[i].getInfo());
 
         System.out.println("++++++++++++++++++++");
     }

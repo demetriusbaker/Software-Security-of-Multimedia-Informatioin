@@ -24,6 +24,11 @@ public class Storage {
         this.price = price;
     }
 
+    public Storage(Storage otherStorage){
+        this.countProduct = otherStorage.countProduct;
+        this.price = otherStorage.price;
+    }
+
     public void changeCountProduct(int countProduct){
         this.countProduct = countProduct;
     }

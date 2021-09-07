@@ -2,7 +2,7 @@ package Chapter34.Arithmetic;
 
 import java.util.Scanner;
 
-public class Strings implements IArithmetic{
+public class Strings implements IArithmetic {
     private char[] c;
 
     public Strings(){

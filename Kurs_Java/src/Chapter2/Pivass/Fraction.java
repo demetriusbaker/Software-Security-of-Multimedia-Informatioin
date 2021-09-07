@@ -86,16 +86,32 @@ public class Fraction {
 
     public static void createAndPrintArray(){
         System.out.print("Enter array's size: ");
-        int size = new Scanner(System.in).nextInt();
-        while (size < 1)
-            size = new Scanner(System.in).nextInt();
+        Scanner scanner = new Scanner(System.in);
+        int size;
+
+        do {
+            while (!scanner.hasNextInt())
+                scanner.next();
+            size = scanner.nextInt();
+        } while (size <= 0);
+
 
         Fraction[] fractions = new Fraction[size];
         for (int i = 0; i < fractions.length; i++) {
             System.out.println("Enter numerator and denominator" +
                     " of " + (i + 1) + " element");
-            fractions[i] = new Fraction(new Scanner(System.in).nextInt(),
-                    new Scanner(System.in).nextInt());
+
+            int numerator, denominator;
+
+            while (!scanner.hasNextInt())
+                scanner.next();
+            numerator = scanner.nextInt();
+
+            while (!scanner.hasNextInt())
+                scanner.next();
+            denominator = scanner.nextInt();
+
+            fractions[i] = new Fraction(numerator, denominator);
         }
 
         for (var f : fractions)

@@ -2,18 +2,25 @@ package Chapter34.Arithmetic;
 
 import java.util.Scanner;
 
-public class Vectors implements IArithmetic{
+public class Vectors implements IArithmetic {
     private final double[] vector;
 
     public Vectors(){
         Scanner s = new Scanner(System.in);
+        int size;
 
         System.out.print("Enter size: ");
-        final int size = s.nextInt();
+        do {
+            while (!s.hasNextInt())
+                s.next();
+            size = s.nextInt();
+        } while (size <= 0);
 
         vector = new double[size];
         for (int i = 0; i < size; i++){
             System.out.print("Enter " + (i + 1) + " vector element: ");
+            while (!s.hasNextDouble())
+                s.next();
             vector[i] = s.nextDouble();
         }
     }

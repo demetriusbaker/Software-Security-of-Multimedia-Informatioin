@@ -114,7 +114,7 @@ public class QuaEquation {
 
     @Override
     public String toString(){
-        return "A: " + getA() + " B: " + getB()
-                + " C: " + getC();
+        return "A: " + getA() + "; B: " + getB()
+                + "; C: " + getC() + ".";
     }
 }
