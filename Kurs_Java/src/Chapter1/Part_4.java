@@ -325,13 +325,11 @@ public class Part_4 {
             }
             System.out.println();
         }
+        System.out.println();
 
         for(int i = 0; i < n; i++)
             for (int j = 0; j < n; j++){
-                if (matrix[i][j] > 0)
-                    matrix[i][j] = 1;
-                else
-                    matrix[i][j] = 0;
+                matrix[i][j] = matrix[i][j] > 0 ? 1 : 0;
             }
 
         for(int i = 0; i < n; i++) {

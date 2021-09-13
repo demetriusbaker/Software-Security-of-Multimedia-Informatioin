@@ -204,7 +204,18 @@ public class Main2 {
                 }
                 case "3" -> {
                     System.out.println("----------------------------");
-                    BSUIR.findListByFacultyAndCourse(faculty, course);
+                    String[] faculties = {"Инфокоммуникаций", "ФКП", "КСИС", "ФРЭ"};
+                    for (var f : faculties) {
+                        for (int _course = 1; _course <= 4; _course++) {
+                            System.out.println();
+                            System.out.println("Faculty: " + f + " and course: " + _course);
+                            System.out.println();
+                            BSUIR.findListByFacultyAndCourse(f, _course);
+                        }
+                        System.out.println();
+                        System.out.println("===");
+                        System.out.println();
+                    }
                     System.out.println("----------------------------");
                 }
                 case "4" -> {
