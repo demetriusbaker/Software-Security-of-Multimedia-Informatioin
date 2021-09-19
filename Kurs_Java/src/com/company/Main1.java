@@ -140,7 +140,7 @@ public class Main1 {
                     System.out.printf("%d\t-------------\n", a++);
                     Part_4.solve_33();
                     System.out.printf("%d\t-------------\n", a++);
-                    Part_4.solve_34(8);
+                    Part_4.solve_34(3);
                     System.out.printf("%d\t-------------\n", a++);
                     Part_4.solve_35(5, 6);
                     System.out.printf("%d\t-------------\n", a++);

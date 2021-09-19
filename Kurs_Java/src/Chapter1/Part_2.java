@@ -105,7 +105,7 @@ public class Part_2 {
     }
 
     public static void solve_17(char ... happy_ticket){
-        if (happy_ticket.length < 1000000){
+        if (happy_ticket.length == 6){
             int[] digs = new int[happy_ticket.length];
 
             for (int i = 0; i < happy_ticket.length; i++)

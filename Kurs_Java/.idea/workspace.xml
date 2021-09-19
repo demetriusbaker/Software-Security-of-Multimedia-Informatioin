@@ -5,19 +5,16 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="abb318d1-7e8d-434e-8650-be23c21e1fbf" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/com/company/BeerChillax.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/abiturient_exam" beforeDir="false" afterPath="$PROJECT_DIR$/abiturient_exam" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/car_shop" beforeDir="false" afterPath="$PROJECT_DIR$/car_shop" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/house_accomodation" beforeDir="false" afterPath="$PROJECT_DIR$/house_accomodation" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Kurs_Java/Chapter1/Part_2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kurs_Java/Chapter1/Part_2.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kurs_Java/Chapter1/Part_4.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kurs_Java/Chapter1/Part_4.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/Kurs_Java/com/company/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kurs_Java/com/company/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Kurs_Java/com/company/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Kurs_Java/com/company/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/patients_polyclinic" beforeDir="false" afterPath="$PROJECT_DIR$/patients_polyclinic" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Chapter1/Part_2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Part_2.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/Chapter1/Part_4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Chapter1/Part_4.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/com/company/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/company/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/company/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/students_bsuir" beforeDir="false" afterPath="$PROJECT_DIR$/students_bsuir" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../Metodicheskoue_ukazanie/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../Metodicheskoue_ukazanie/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +24,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Kotlin Class" />
         <option value="Class" />
       </list>
     </option>
@@ -113,7 +111,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Metodicheskoue_ukazanie" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -139,7 +137,7 @@
       <recent name="com.company" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main2">
+  <component name="RunManager" selected="Application.Main1">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -151,12 +149,28 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="уцк" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.уцк" />
       <module name="Kurs_Java" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BeerChillax" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BeerChillax" />
+      <module name="Kurs_Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.company.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -174,12 +188,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main2" />
+    <configuration name="fds" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Chapter2.fds" />
       <module name="Kurs_Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.company.*" />
+          <option name="PATTERN" value="Chapter2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -187,38 +201,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main34" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main34" />
+    <configuration name="BeerKotlinKt" type="JetRunConfigurationType" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.company.BeerKotlinKt" />
       <module name="Kurs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main5" />
-      <module name="Kurs_Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.company.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main2" />
         <item itemvalue="Application.Main1" />
-        <item itemvalue="Application.Main34" />
-        <item itemvalue="Application.Main5" />
+        <item itemvalue="Application.fds" />
+        <item itemvalue="Application.уцк" />
+        <item itemvalue="Kotlin.BeerKotlinKt" />
+        <item itemvalue="Application.BeerChillax" />
       </list>
     </recent_temporary>
   </component>
